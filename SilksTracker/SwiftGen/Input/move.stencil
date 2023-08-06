@@ -1,0 +1,43 @@
+// 🚀🚀🚀🚀 *************************************************************************************** 🚀🚀🚀🚀
+
+//      Note: This is a generated file. It will be overwritten on every compilation.
+//      If you need to make changes to the structure of this file, please use the stencil template.
+
+// 🚀🚀🚀🚀 *************************************************************************************** 🚀🚀🚀🚀
+
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+
+{% if files %}
+{% set accessModifier %}internal{% endset %}
+import Foundation
+{% macro fileBlock file %}
+    {% call documentBlock file file.document %}
+{% endmacro %}
+{% macro documentBlock file document %}
+{% for componentName, componentDict in document.data %}
+    {% set displayName %}{{ componentDict.displayName }}{% endset %}
+    {{ accessModifier }} static var {{ componentName }}: MoveName {
+        MoveName(codeSafeName: "{{ componentName }}",
+                 displayName: "{{ displayName }}")
+    }
+{% endfor %}
+
+    {{accessModifier}} static var allMoves = [
+    {% for component in document.data %}
+        {{ component }}{{ ", " if not forloop.last }}
+    {% endfor %}
+    ]
+
+    {{accessModifier}} static var moveCount = {{ document.data.count }}
+{% endmacro %}
+
+{{ accessModifier }} struct MoveNames {
+    private init() {}
+
+    
+{% call fileBlock files.first %}
+}
+    
+{% else %}
+    // No files found
+{% endif %}

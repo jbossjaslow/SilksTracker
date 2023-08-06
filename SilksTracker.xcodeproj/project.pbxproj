@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3903D4622A60DD3E00A39EF3 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3903D4612A60DD3E00A39EF3 /* swiftgen.yml */; };
+		39092C182A5B2DD50080BB66 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39092C172A5B2DD50080BB66 /* UserDefaultsKey.swift */; };
+		39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */; };
+		39092C1D2A5B89F50080BB66 /* MCEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 39092C1C2A5B89F50080BB66 /* MCEmojiPicker */; };
+		39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */; };
+		3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841A2A50C4A500AC7335 /* SettingsView.swift */; };
+		3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841D2A50C53D00AC7335 /* AppSettings.swift */; };
+		394184202A50C5F600AC7335 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841F2A50C5F600AC7335 /* OrderType.swift */; };
+		396A2B302A566CC20087B9CC /* MoveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */; };
+		396A2B332A566E2F0087B9CC /* WorkoutDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */; };
+		396A2B352A566EC20087B9CC /* MoveDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */; };
+		397BF6A32A48E9CE00F80E0F /* SilksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */; };
+		397BF6A52A48F11300F80E0F /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A42A48F11300F80E0F /* WorkoutListView.swift */; };
+		397BF6A72A48F12A00F80E0F /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A62A48F12A00F80E0F /* Workout.swift */; };
+		397BF6A92A48F15100F80E0F /* MoveGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A82A48F15100F80E0F /* MoveGroup.swift */; };
+		397BF6AB2A48F17700F80E0F /* AllMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6AA2A48F17700F80E0F /* AllMoves.swift */; };
+		397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */; };
+		397BF6B42A48F61000F80E0F /* MoveName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6B32A48F61000F80E0F /* MoveName.swift */; };
+		39ADA1912A3BCEDD00811244 /* SilksTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1902A3BCEDD00811244 /* SilksTrackerApp.swift */; };
+		39ADA1952A3BCEDE00811244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39ADA1942A3BCEDE00811244 /* Assets.xcassets */; };
+		39ADA1982A3BCEDE00811244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39ADA1972A3BCEDE00811244 /* Preview Assets.xcassets */; };
+		39ADA1A42A3BCEDF00811244 /* SilksTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1A32A3BCEDF00811244 /* SilksTrackerTests.swift */; };
+		39ADA1AE2A3BCEDF00811244 /* SilksTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1AD2A3BCEDF00811244 /* SilksTrackerUITests.swift */; };
+		39ADA1B02A3BCEDF00811244 /* SilksTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1AF2A3BCEDF00811244 /* SilksTrackerUITestsLaunchTests.swift */; };
+		39ADA1BD2A3BD0BB00811244 /* FundamenatalsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1BC2A3BD0BB00811244 /* FundamenatalsListView.swift */; };
+		39ADA1C12A3BD12800811244 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1C02A3BD12800811244 /* Move.swift */; };
+		39B0FE2E2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE2D2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift */; };
+		39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE2F2A5917EB0028E9EB /* MoveListView.swift */; };
+		39B0FE322A591A470028E9EB /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */; };
+		39B0FE352A59209F0028E9EB /* WorkoutDetailViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE342A59209F0028E9EB /* WorkoutDetailViewMode.swift */; };
+		39F4263E2A637EE3007C7ADF /* moveNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F4263D2A637EE3007C7ADF /* moveNames.plist */; };
+		39F426402A638644007C7ADF /* MoveNames+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F4263F2A638644007C7ADF /* MoveNames+Generated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39ADA1A02A3BCEDF00811244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39ADA1852A3BCEDC00811244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39ADA18C2A3BCEDD00811244;
+			remoteInfo = SilksTracker;
+		};
+		39ADA1AA2A3BCEDF00811244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39ADA1852A3BCEDC00811244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39ADA18C2A3BCEDD00811244;
+			remoteInfo = SilksTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3903D4612A60DD3E00A39EF3 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		39092C172A5B2DD50080BB66 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchMoveInputView.swift; sourceTree = "<group>"; };
+		39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionView.swift; sourceTree = "<group>"; };
+		3941841A2A50C4A500AC7335 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3941841D2A50C53D00AC7335 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		3941841F2A50C5F600AC7335 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailView.swift; sourceTree = "<group>"; };
+		396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailRowView.swift; sourceTree = "<group>"; };
+		396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailRowView.swift; sourceTree = "<group>"; };
+		397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTabView.swift; sourceTree = "<group>"; };
+		397BF6A42A48F11300F80E0F /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		397BF6A62A48F12A00F80E0F /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		397BF6A82A48F15100F80E0F /* MoveGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveGroup.swift; sourceTree = "<group>"; };
+		397BF6AA2A48F17700F80E0F /* AllMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMoves.swift; sourceTree = "<group>"; };
+		397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPreviewModel.swift; sourceTree = "<group>"; };
+		397BF6B32A48F61000F80E0F /* MoveName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveName.swift; sourceTree = "<group>"; };
+		39ADA18D2A3BCEDD00811244 /* SilksTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilksTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADA1902A3BCEDD00811244 /* SilksTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerApp.swift; sourceTree = "<group>"; };
+		39ADA1942A3BCEDE00811244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39ADA1972A3BCEDE00811244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39ADA19F2A3BCEDF00811244 /* SilksTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilksTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADA1A32A3BCEDF00811244 /* SilksTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerTests.swift; sourceTree = "<group>"; };
+		39ADA1A92A3BCEDF00811244 /* SilksTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilksTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADA1AD2A3BCEDF00811244 /* SilksTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerUITests.swift; sourceTree = "<group>"; };
+		39ADA1AF2A3BCEDF00811244 /* SilksTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39ADA1BC2A3BD0BB00811244 /* FundamenatalsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundamenatalsListView.swift; sourceTree = "<group>"; };
+		39ADA1C02A3BD12800811244 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		39B0FE2D2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseOrderToolbarContent.swift; sourceTree = "<group>"; };
+		39B0FE2F2A5917EB0028E9EB /* MoveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveListView.swift; sourceTree = "<group>"; };
+		39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		39B0FE342A59209F0028E9EB /* WorkoutDetailViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewMode.swift; sourceTree = "<group>"; };
+		39F4263D2A637EE3007C7ADF /* moveNames.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moveNames.plist; sourceTree = "<group>"; };
+		39F4263F2A638644007C7ADF /* MoveNames+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoveNames+Generated.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39ADA18A2A3BCEDD00811244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39092C1D2A5B89F50080BB66 /* MCEmojiPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADA19C2A3BCEDF00811244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADA1A62A3BCEDF00811244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39092C162A5B2DC60080BB66 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				39ADA1902A3BCEDD00811244 /* SilksTrackerApp.swift */,
+				39092C172A5B2DD50080BB66 /* UserDefaultsKey.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3941841C2A50C53100AC7335 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3941841D2A50C53D00AC7335 /* AppSettings.swift */,
+				3941841F2A50C5F600AC7335 /* OrderType.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		396A2B2D2A566C7F0087B9CC /* Move List */ = {
+			isa = PBXGroup;
+			children = (
+				39ADA1BC2A3BD0BB00811244 /* FundamenatalsListView.swift */,
+				396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */,
+				39B0FE2F2A5917EB0028E9EB /* MoveListView.swift */,
+			);
+			path = "Move List";
+			sourceTree = "<group>";
+		};
+		396A2B2E2A566C8D0087B9CC /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				397BF6A42A48F11300F80E0F /* WorkoutListView.swift */,
+				39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */,
+				39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */,
+			);
+			path = Workouts;
+			sourceTree = "<group>";
+		};
+		396A2B312A566DFF0087B9CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */,
+				396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */,
+				39B0FE2D2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift */,
+				39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		397BF6B02A48F5AC00F80E0F /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		39ADA1842A3BCEDC00811244 = {
+			isa = PBXGroup;
+			children = (
+				3903D4612A60DD3E00A39EF3 /* swiftgen.yml */,
+				39ADA18F2A3BCEDD00811244 /* SilksTracker */,
+				39ADA1A22A3BCEDF00811244 /* SilksTrackerTests */,
+				39ADA1AC2A3BCEDF00811244 /* SilksTrackerUITests */,
+				39ADA18E2A3BCEDD00811244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39ADA18E2A3BCEDD00811244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39ADA18D2A3BCEDD00811244 /* SilksTracker.app */,
+				39ADA19F2A3BCEDF00811244 /* SilksTrackerTests.xctest */,
+				39ADA1A92A3BCEDF00811244 /* SilksTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39ADA18F2A3BCEDD00811244 /* SilksTracker */ = {
+			isa = PBXGroup;
+			children = (
+				39092C162A5B2DC60080BB66 /* App */,
+				39ADA1942A3BCEDE00811244 /* Assets.xcassets */,
+				39B0FE332A59206C0028E9EB /* Enums */,
+				39ADA1BF2A3BD11700811244 /* Models */,
+				39ADA1962A3BCEDE00811244 /* Preview Content */,
+				39DC1C742A5FA734001C4F51 /* SwiftGen */,
+				39ADA1BE2A3BD0C400811244 /* Views */,
+			);
+			path = SilksTracker;
+			sourceTree = "<group>";
+		};
+		39ADA1962A3BCEDE00811244 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39ADA1972A3BCEDE00811244 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39ADA1A22A3BCEDF00811244 /* SilksTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				39ADA1A32A3BCEDF00811244 /* SilksTrackerTests.swift */,
+			);
+			path = SilksTrackerTests;
+			sourceTree = "<group>";
+		};
+		39ADA1AC2A3BCEDF00811244 /* SilksTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39ADA1AD2A3BCEDF00811244 /* SilksTrackerUITests.swift */,
+				39ADA1AF2A3BCEDF00811244 /* SilksTrackerUITestsLaunchTests.swift */,
+			);
+			path = SilksTrackerUITests;
+			sourceTree = "<group>";
+		};
+		39ADA1BE2A3BD0C400811244 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				396A2B312A566DFF0087B9CC /* Components */,
+				396A2B2D2A566C7F0087B9CC /* Move List */,
+				3941841A2A50C4A500AC7335 /* SettingsView.swift */,
+				397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */,
+				396A2B2E2A566C8D0087B9CC /* Workouts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39ADA1BF2A3BD11700811244 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3941841C2A50C53100AC7335 /* Settings */,
+				397BF6B02A48F5AC00F80E0F /* Preview */,
+				39ADA1C02A3BD12800811244 /* Move.swift */,
+				397BF6B32A48F61000F80E0F /* MoveName.swift */,
+				397BF6AA2A48F17700F80E0F /* AllMoves.swift */,
+				397BF6A82A48F15100F80E0F /* MoveGroup.swift */,
+				397BF6A62A48F12A00F80E0F /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39B0FE332A59206C0028E9EB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				39B0FE342A59209F0028E9EB /* WorkoutDetailViewMode.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		39DC1C742A5FA734001C4F51 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				39DC1C752A5FA748001C4F51 /* Input */,
+				39DC1C762A5FA74D001C4F51 /* Output */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		39DC1C752A5FA748001C4F51 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				39F4263D2A637EE3007C7ADF /* moveNames.plist */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		39DC1C762A5FA74D001C4F51 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				39F4263F2A638644007C7ADF /* MoveNames+Generated.swift */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39ADA18C2A3BCEDD00811244 /* SilksTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39ADA1B32A3BCEDF00811244 /* Build configuration list for PBXNativeTarget "SilksTracker" */;
+			buildPhases = (
+				39DC1C792A5FAF68001C4F51 /* SwiftGen */,
+				39ADA1892A3BCEDD00811244 /* Sources */,
+				39ADA18A2A3BCEDD00811244 /* Frameworks */,
+				39ADA18B2A3BCEDD00811244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilksTracker;
+			packageProductDependencies = (
+				39092C1C2A5B89F50080BB66 /* MCEmojiPicker */,
+			);
+			productName = SilksTracker;
+			productReference = 39ADA18D2A3BCEDD00811244 /* SilksTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39ADA19E2A3BCEDF00811244 /* SilksTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39ADA1B62A3BCEDF00811244 /* Build configuration list for PBXNativeTarget "SilksTrackerTests" */;
+			buildPhases = (
+				39ADA19B2A3BCEDF00811244 /* Sources */,
+				39ADA19C2A3BCEDF00811244 /* Frameworks */,
+				39ADA19D2A3BCEDF00811244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39ADA1A12A3BCEDF00811244 /* PBXTargetDependency */,
+			);
+			name = SilksTrackerTests;
+			productName = SilksTrackerTests;
+			productReference = 39ADA19F2A3BCEDF00811244 /* SilksTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39ADA1A82A3BCEDF00811244 /* SilksTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39ADA1B92A3BCEDF00811244 /* Build configuration list for PBXNativeTarget "SilksTrackerUITests" */;
+			buildPhases = (
+				39ADA1A52A3BCEDF00811244 /* Sources */,
+				39ADA1A62A3BCEDF00811244 /* Frameworks */,
+				39ADA1A72A3BCEDF00811244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39ADA1AB2A3BCEDF00811244 /* PBXTargetDependency */,
+			);
+			name = SilksTrackerUITests;
+			productName = SilksTrackerUITests;
+			productReference = 39ADA1A92A3BCEDF00811244 /* SilksTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39ADA1852A3BCEDC00811244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					39ADA18C2A3BCEDD00811244 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					39ADA19E2A3BCEDF00811244 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 39ADA18C2A3BCEDD00811244;
+					};
+					39ADA1A82A3BCEDF00811244 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 39ADA18C2A3BCEDD00811244;
+					};
+				};
+			};
+			buildConfigurationList = 39ADA1882A3BCEDC00811244 /* Build configuration list for PBXProject "SilksTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39ADA1842A3BCEDC00811244;
+			packageReferences = (
+				39092C1B2A5B89F50080BB66 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */,
+			);
+			productRefGroup = 39ADA18E2A3BCEDD00811244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39ADA18C2A3BCEDD00811244 /* SilksTracker */,
+				39ADA19E2A3BCEDF00811244 /* SilksTrackerTests */,
+				39ADA1A82A3BCEDF00811244 /* SilksTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39ADA18B2A3BCEDD00811244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F4263E2A637EE3007C7ADF /* moveNames.plist in Resources */,
+				39ADA1982A3BCEDE00811244 /* Preview Assets.xcassets in Resources */,
+				39ADA1952A3BCEDE00811244 /* Assets.xcassets in Resources */,
+				3903D4622A60DD3E00A39EF3 /* swiftgen.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADA19D2A3BCEDF00811244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADA1A72A3BCEDF00811244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39DC1C792A5FAF68001C4F51 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/swiftgen.yml",
+				"$(SRCROOT)/swiftgen/bin/swiftgen",
+				"$(SRCROOT)/SilksTracker/SwiftGen/Input/moveNames.plist",
+				"$(SRCROOT)/SilksTracker/SwiftGen/Input/move.stencil",
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/SilksTracker/SwiftGen/Output/MoveNames+Generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftgen/bin/swiftgen\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39ADA1892A3BCEDD00811244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396A2B332A566E2F0087B9CC /* WorkoutDetailRowView.swift in Sources */,
+				39B0FE322A591A470028E9EB /* WorkoutDetailView.swift in Sources */,
+				39B0FE352A59209F0028E9EB /* WorkoutDetailViewMode.swift in Sources */,
+				39F426402A638644007C7ADF /* MoveNames+Generated.swift in Sources */,
+				394184202A50C5F600AC7335 /* OrderType.swift in Sources */,
+				39B0FE2E2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift in Sources */,
+				39092C182A5B2DD50080BB66 /* UserDefaultsKey.swift in Sources */,
+				397BF6A32A48E9CE00F80E0F /* SilksTabView.swift in Sources */,
+				39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */,
+				397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */,
+				397BF6AB2A48F17700F80E0F /* AllMoves.swift in Sources */,
+				39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */,
+				396A2B302A566CC20087B9CC /* MoveDetailView.swift in Sources */,
+				397BF6A72A48F12A00F80E0F /* Workout.swift in Sources */,
+				396A2B352A566EC20087B9CC /* MoveDetailRowView.swift in Sources */,
+				3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */,
+				39ADA1912A3BCEDD00811244 /* SilksTrackerApp.swift in Sources */,
+				39ADA1C12A3BD12800811244 /* Move.swift in Sources */,
+				397BF6A52A48F11300F80E0F /* WorkoutListView.swift in Sources */,
+				397BF6A92A48F15100F80E0F /* MoveGroup.swift in Sources */,
+				397BF6B42A48F61000F80E0F /* MoveName.swift in Sources */,
+				39ADA1BD2A3BD0BB00811244 /* FundamenatalsListView.swift in Sources */,
+				3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */,
+				39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADA19B2A3BCEDF00811244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADA1A42A3BCEDF00811244 /* SilksTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADA1A52A3BCEDF00811244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADA1B02A3BCEDF00811244 /* SilksTrackerUITestsLaunchTests.swift in Sources */,
+				39ADA1AE2A3BCEDF00811244 /* SilksTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39ADA1A12A3BCEDF00811244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39ADA18C2A3BCEDD00811244 /* SilksTracker */;
+			targetProxy = 39ADA1A02A3BCEDF00811244 /* PBXContainerItemProxy */;
+		};
+		39ADA1AB2A3BCEDF00811244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39ADA18C2A3BCEDD00811244 /* SilksTracker */;
+			targetProxy = 39ADA1AA2A3BCEDF00811244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39ADA1B12A3BCEDF00811244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39ADA1B22A3BCEDF00811244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39ADA1B42A3BCEDF00811244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SilksTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WEFRB4UV59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomesauce.SilksTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39ADA1B52A3BCEDF00811244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SilksTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WEFRB4UV59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomesauce.SilksTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39ADA1B72A3BCEDF00811244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WEFRB4UV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomesauce.SilksTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilksTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SilksTracker";
+			};
+			name = Debug;
+		};
+		39ADA1B82A3BCEDF00811244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WEFRB4UV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomesauce.SilksTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilksTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SilksTracker";
+			};
+			name = Release;
+		};
+		39ADA1BA2A3BCEDF00811244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WEFRB4UV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomesauce.SilksTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilksTracker;
+			};
+			name = Debug;
+		};
+		39ADA1BB2A3BCEDF00811244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WEFRB4UV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomesauce.SilksTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilksTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39ADA1882A3BCEDC00811244 /* Build configuration list for PBXProject "SilksTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADA1B12A3BCEDF00811244 /* Debug */,
+				39ADA1B22A3BCEDF00811244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39ADA1B32A3BCEDF00811244 /* Build configuration list for PBXNativeTarget "SilksTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADA1B42A3BCEDF00811244 /* Debug */,
+				39ADA1B52A3BCEDF00811244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39ADA1B62A3BCEDF00811244 /* Build configuration list for PBXNativeTarget "SilksTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADA1B72A3BCEDF00811244 /* Debug */,
+				39ADA1B82A3BCEDF00811244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39ADA1B92A3BCEDF00811244 /* Build configuration list for PBXNativeTarget "SilksTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADA1BA2A3BCEDF00811244 /* Debug */,
+				39ADA1BB2A3BCEDF00811244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39092C1B2A5B89F50080BB66 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/izyumkin/MCEmojiPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39092C1C2A5B89F50080BB66 /* MCEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39092C1B2A5B89F50080BB66 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */;
+			productName = MCEmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 39ADA1852A3BCEDC00811244 /* Project object */;
+}

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StraightArmHang</key>
+	<dict>
+		<key>displayName</key>
+		<string>Straight Arm Hang</string>
+	</dict>
+	<key>ShoulderLockOff</key>
+	<dict>
+		<key>displayName</key>
+		<string>Shoulder Lock Off</string>
+	</dict>
+	<key>BasicStand</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Stand</string>
+	</dict>
+	<key>BasicClimb</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Climb</string>
+	</dict>
+	<key>BasicFootLock</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Foot Lock</string>
+	</dict>
+	<key>StandingHipLean</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Hip Lean</string>
+	</dict>
+	<key>SittingHipLean</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sitting Hip Lean</string>
+	</dict>
+	<key>StandardDescent</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standard Descent</string>
+	</dict>
+	<key>ManualHipKey</key>
+	<dict>
+		<key>displayName</key>
+		<string>Manual Hip Key</string>
+	</dict>
+	<key>Cocoon</key>
+	<dict>
+		<key>displayName</key>
+		<string>Cocoon</string>
+	</dict>
+	<key>Sail</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sail</string>
+	</dict>
+	<key>Ball</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball</string>
+	</dict>
+	<key>StraddleUpKnot</key>
+	<dict>
+		<key>displayName</key>
+		<string>Straddle Up (Knot)</string>
+	</dict>
+	<key>LaybackInvert</key>
+	<dict>
+		<key>displayName</key>
+		<string>Layback Invert</string>
+	</dict>
+	<key>FootLockAir</key>
+	<dict>
+		<key>displayName</key>
+		<string>Foot Lock from Air</string>
+	</dict>
+	<key>FlamencoGrip</key>
+	<dict>
+		<key>displayName</key>
+		<string>Flamenco Grip</string>
+	</dict>
+	<key>Pencil</key>
+	<dict>
+		<key>displayName</key>
+		<string>Pencil</string>
+	</dict>
+	<key>BallToPencil</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball → Pencil</string>
+	</dict>
+	<key>ClotheslineV2</key>
+	<dict>
+		<key>displayName</key>
+		<string>Clothesline vs. 2</string>
+	</dict>
+	<key>BowAndArrow</key>
+	<dict>
+		<key>displayName</key>
+		<string>Bow &amp; Arrow</string>
+	</dict>
+	<key>BentLegHipKeyGround</key>
+	<dict>
+		<key>displayName</key>
+		<string>Bent Leg Hip Key (ground)</string>
+	</dict>
+	<key>Arabesque</key>
+	<dict>
+		<key>displayName</key>
+		<string>Arabesque</string>
+	</dict>
+	<key>LegRollUp1Roll</key>
+	<dict>
+		<key>displayName</key>
+		<string>Leg Roll Up - 1 roll</string>
+	</dict>
+	<key>LegRollUp2Rolls</key>
+	<dict>
+		<key>displayName</key>
+		<string>Leg Roll Up - 2 rolls</string>
+	</dict>
+	<key>ClotheslineV1</key>
+	<dict>
+		<key>displayName</key>
+		<string>Clothesline vs. 1</string>
+	</dict>
+	<key>StraddleUpGround</key>
+	<dict>
+		<key>displayName</key>
+		<string>Straddle Up (from ground)</string>
+	</dict>
+	<key>Pike</key>
+	<dict>
+		<key>displayName</key>
+		<string>Pike</string>
+	</dict>
+	<key>BallToPencilToPike</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball → Pencil → Pike</string>
+	</dict>
+	<key>ManInTheMoonLegRollUp2Rolls</key>
+	<dict>
+		<key>displayName</key>
+		<string>Man in the Moon/Leg Roll Up - 2 rolls</string>
+	</dict>
+	<key>ShoulderStandLegRollUp2Rolls</key>
+	<dict>
+		<key>displayName</key>
+		<string>Shoulder Stand/Leg Roll Up - 2 rolls</string>
+	</dict>
+	<key>RussianStand</key>
+	<dict>
+		<key>displayName</key>
+		<string>Russian Stand</string>
+	</dict>
+	<key>RussianClimb</key>
+	<dict>
+		<key>displayName</key>
+		<string>Russian Climb</string>
+	</dict>
+	<key>LegRollUp3Rolls</key>
+	<dict>
+		<key>displayName</key>
+		<string>Leg Roll Up - 3 rolls</string>
+	</dict>
+	<key>SupportedBridge</key>
+	<dict>
+		<key>displayName</key>
+		<string>Supported Bridge</string>
+	</dict>
+	<key>HipKeyAir</key>
+	<dict>
+		<key>displayName</key>
+		<string>Hip Key (from air)</string>
+	</dict>
+	<key>SingleFootLockAir</key>
+	<dict>
+		<key>displayName</key>
+		<string>Single Foot Lock from Air</string>
+	</dict>
+	<key>SupportedBridgeNoHands</key>
+	<dict>
+		<key>displayName</key>
+		<string>Supported Bridge - no hands</string>
+	</dict>
+	<key>FlamingoArabesque</key>
+	<dict>
+		<key>displayName</key>
+		<string>Flamingo Arabesque</string>
+	</dict>
+	<key>StarFish</key>
+	<dict>
+		<key>displayName</key>
+		<string>Star Fish</string>
+	</dict>
+	<key>KneeHang</key>
+	<dict>
+		<key>displayName</key>
+		<string>Knee Hang</string>
+	</dict>
+	<key>StraddleUpAir</key>
+	<dict>
+		<key>displayName</key>
+		<string>Straddle Up (from Air)</string>
+	</dict>
+	<key>BallInversionAir</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball Inversion (from Air)</string>
+	</dict>
+	<key>HalfScorpion</key>
+	<dict>
+		<key>displayName</key>
+		<string>1/2 Scorpion</string>
+	</dict>
+	<key>LotusHangSingleFootLock</key>
+	<dict>
+		<key>displayName</key>
+		<string>Lotus Hang - single foot lock</string>
+	</dict>
+	<key>VerticalHang</key>
+	<dict>
+		<key>displayName</key>
+		<string>Vertical Hang</string>
+	</dict>
+	<key>LotusHangBasicFootLock</key>
+	<dict>
+		<key>displayName</key>
+		<string>Lotus Hang - basic foot lock</string>
+	</dict>
+	<key>DoubleFootLocksAir</key>
+	<dict>
+		<key>displayName</key>
+		<string>Double Foot Locks (from air)</string>
+	</dict>
+	<key>EmmaSits</key>
+	<dict>
+		<key>displayName</key>
+		<string>Emma sits</string>
+	</dict>
+	<key>SidewaysMiddleSplitsV3</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sideways Middle Splits vs. 3</string>
+	</dict>
+	<key>Splits</key>
+	<dict>
+		<key>displayName</key>
+		<string>Splits</string>
+	</dict>
+	<key>TheX</key>
+	<dict>
+		<key>displayName</key>
+		<string>The X</string>
+	</dict>
+	<key>Arrow</key>
+	<dict>
+		<key>displayName</key>
+		<string>Arrow</string>
+	</dict>
+	<key>SidewaysMiddleSplitsV2</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sideways Middle Splits vs. 2</string>
+	</dict>
+	<key>LegRollUpSplits</key>
+	<dict>
+		<key>displayName</key>
+		<string>Leg Roll Up from Splits</string>
+	</dict>
+	<key>SidewaysMiddleSplitsV1</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sideways Middle Splits vs. 1</string>
+	</dict>
+	<key>CrossBackStraddle</key>
+	<dict>
+		<key>displayName</key>
+		<string>Cross Back Straddle</string>
+	</dict>
+	<key>standingHipLeanVariations_noHands</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Hip Lean - No Hands</string>
+	</dict>
+	<key>standingHipLeanVariations_heartToCeilingNoHands</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Hip Lean - Heart to Ceiling w/ No Hands</string>
+	</dict>
+	<key>standingHipLeanVariations_singleFootLock</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Hip Lean - Single Foot Lock</string>
+	</dict>
+	<key>sittingHipLeanVariations_noHands</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sitting Hip Lean - No Hands</string>
+	</dict>
+	<key>sittingHipLeanVariations_oppositeSideLean</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sitting Hip Lean - Opposite Side Lean</string>
+	</dict>
+	<key>sittingHipLeanVariations_singleFootLock</key>
+	<dict>
+		<key>displayName</key>
+		<string>Sitting Hip Lean - Single Foot Lock</string>
+	</dict>
+	<key>ball_skinTheCatEntry</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Skin the Cat Entry</string>
+	</dict>
+	<key>ball_skinTheCatExit</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Skin the Cat Exit</string>
+	</dict>
+	<key>ball_cartWheels</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Cartwheels</string>
+	</dict>
+	<key>ball_birdcageDouble</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Birdcage - double</string>
+	</dict>
+	<key>ball_birdcageSingle</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Birdcage - single</string>
+	</dict>
+	<key>ball_stagLegs</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Stag Legs</string>
+	</dict>
+	<key>ball_fang</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Fang</string>
+	</dict>
+	<key>ball_splits</key>
+	<dict>
+		<key>displayName</key>
+		<string>Ball - Splits</string>
+	</dict>
+	<key>cocoonVariations_fanOnFrontFabric</key>
+	<dict>
+		<key>displayName</key>
+		<string>Cocoon - Fan on front fabric</string>
+	</dict>
+	<key>cocoonVariations_fanOnBackFabric</key>
+	<dict>
+		<key>displayName</key>
+		<string>Cocoon - Fan on back fabric</string>
+	</dict>
+	<key>standingVariationsOnBasicFootlock_frontSail</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Basic Footlock - Front Sail</string>
+	</dict>
+	<key>standingVariationsOnBasicFootlock_backSail</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Basic Footlock - Back Sail</string>
+	</dict>
+	<key>standingVariationsOnBasicFootlock_noHandsFrontSail</key>
+	<dict>
+		<key>displayName</key>
+		<string>Standing Basic Footlock - No Hands Front Sail</string>
+	</dict>
+	<key>laybackInvertVariations_skinTheLaybackInvert</key>
+	<dict>
+		<key>displayName</key>
+		<string>Layback Invert - Skin the Layback Invert</string>
+	</dict>
+	<key>laybackInvertVariations_pike</key>
+	<dict>
+		<key>displayName</key>
+		<string>Layback Invert - Pike</string>
+	</dict>
+	<key>laybackInvertVariations_laybackInvertSplits</key>
+	<dict>
+		<key>displayName</key>
+		<string>Layback Invert - Layback Invert Splits</string>
+	</dict>
+	<key>arabesqueBackBalance</key>
+	<dict>
+		<key>displayName</key>
+		<string>Arabesque Back Balance</string>
+	</dict>
+	<key>basicLegRollUpVariations_kidneyHang</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Kidney Hang</string>
+	</dict>
+	<key>basicLegRollUpVariations_kidneyHang_flamencoGripEntrance</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Kidney Hang - Flamenco Grip Entrance</string>
+	</dict>
+	<key>basicLegRollUpVariations_kidneyHang_upAndOverFromManOnTheMoonEntrance</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Kidney Hang - Up &amp; Over from Man/Moon Entrance</string>
+	</dict>
+	<key>basicLegRollUpVariations_splits</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Splits</string>
+	</dict>
+	<key>basicLegRollUpVariations_splits_open</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Splits - Open</string>
+	</dict>
+	<key>basicLegRollUpVariations_splits_revolved</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Splits - Revolved</string>
+	</dict>
+	<key>basicLegRollUpVariations_gazelle</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Gazelle</string>
+	</dict>
+	<key>basicLegRollUpVariations_gazelle_invertedSplitsOpen</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Gazelle - Inverted Splits open</string>
+	</dict>
+	<key>basicLegRollUpVariations_gazelle_invertedSplitsRevolved</key>
+	<dict>
+		<key>displayName</key>
+		<string>Basic Leg Roll Up - Gazelle - Inverted Splits revolved</string>
+	</dict>
+	<key>shoulderSlingFromSupportedBridge</key>
+	<dict>
+		<key>displayName</key>
+		<string>Shoulder Sling from Supported Bridge</string>
+	</dict>
+	<key>roundTheBackHold_sailDance</key>
+	<dict>
+		<key>displayName</key>
+		<string>Round the Back Hold - Sail Dance</string>
+	</dict>
+	<key>ironT</key>
+	<dict>
+		<key>displayName</key>
+		<string>Iron T</string>
+	</dict>
+	<key>crossbackStraddleVariations_butterflyExit</key>
+	<dict>
+		<key>displayName</key>
+		<string>Crossback Straddle - Butterfly Exit</string>
+	</dict>
+	<key>crossbackStraddleVariations_transitionToSideMiddleSplitsV3</key>
+	<dict>
+		<key>displayName</key>
+		<string>Crossback Straddle - Transition to Side Middle Splits vs. 3</string>
+	</dict>
+	<key>crossbackStraddleVariations_splitsRollUpToXEntry</key>
+	<dict>
+		<key>displayName</key>
+		<string>Crossback Straddle - Splits roll up to X entry</string>
+	</dict>
+</dict>
+</plist>
