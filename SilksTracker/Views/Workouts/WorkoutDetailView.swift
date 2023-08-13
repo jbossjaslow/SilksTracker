@@ -9,7 +9,9 @@ import SwiftData
 import SwiftUI
 
 struct WorkoutDetailView: View {
+	// MARK: - Properties
 	@Query var workouts: [Workout]
+	@Query var moves: [Move]
 	
 	@Environment(\.modelContext) private var modelContext
 	@Environment(\.editMode) private var editMode
@@ -21,6 +23,8 @@ struct WorkoutDetailView: View {
 	
 	@State var selectedSticker = ""
 	@State var stickerRotation: Angle = .zero
+	
+	private let workoutDetailViewMode: WorkoutDetailViewMode
 	
 	init(workoutId: UUID? = nil,
 		 workoutDetailViewMode: WorkoutDetailViewMode) {
@@ -42,7 +46,6 @@ struct WorkoutDetailView: View {
 		(workoutDetailViewMode == .editingExistingWorkout && editMode?.wrappedValue == .active)
 	}
 	
-	private let workoutDetailViewMode: WorkoutDetailViewMode
 	var saveButtonText: String {
 		switch workoutDetailViewMode {
 			case .addingNewWorkout:
@@ -61,6 +64,7 @@ struct WorkoutDetailView: View {
 		}
 	}
 	
+	// MARK: - Body
     var body: some View {
 		VStack {
 			viewsOnlyForEditing
@@ -174,9 +178,12 @@ struct WorkoutDetailView: View {
 			
 			Spacer()
 			
-			if selectedMoves.contains(move) {
-				Image(systemName: "checkmark.circle.fill")
+			if let move = moves.first(where: { $0.name == move.name }) {
+				Text(move.workouts.count.description)
 			}
+			
+			Image(systemName: "checkmark.circle.fill")
+				.opacity(selectedMoves.contains(move) ? 1 : 0)
 		}
 		.contentShape(Rectangle())
 		.onTapGesture {

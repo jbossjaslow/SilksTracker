@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A list of every possible move
 struct MoveListView<Content: View>: View {
 	@Environment(AppSettings.self) var settings
 	let listRow: (MoveName) -> Content
