@@ -1,5 +1,5 @@
 //
-//  AllMoves.swift
+//  GroupedMoves.swift
 //  SilksTracker
 //
 //  Created by Josh Jaslow on 6/25/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AllMoves {
+struct GroupedMoves {
 	private init() {}
 	
 	static let grouped = [
@@ -40,13 +40,6 @@ struct AllMoves {
 		ironT,
 		crossbackStraddleVariations
 	]
-	
-//	static var allMoves: [MoveName] {
-//		let reduced = grouped.reduce(into: []) { partialResult, moveGroup in
-//			partialResult += moveGroup.moves
-//		}
-//		return reduced.sorted()
-//	}
 	
 	static let group0 = MoveGroup(id: 0,
 								  moves: [

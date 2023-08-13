@@ -6,471 +6,659 @@
 	<dict>
 		<key>displayName</key>
 		<string>Straight Arm Hang</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>ShoulderLockOff</key>
 	<dict>
 		<key>displayName</key>
 		<string>Shoulder Lock Off</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>BasicStand</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Stand</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>BasicClimb</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Climb</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>BasicFootLock</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Foot Lock</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>StandingHipLean</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Hip Lean</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>SittingHipLean</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sitting Hip Lean</string>
+		<key>groupId</key>
+		<integer>0</integer>
 	</dict>
 	<key>StandardDescent</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standard Descent</string>
+		<key>groupId</key>
+		<integer>1</integer>
 	</dict>
 	<key>ManualHipKey</key>
 	<dict>
 		<key>displayName</key>
 		<string>Manual Hip Key</string>
+		<key>groupId</key>
+		<integer>1</integer>
 	</dict>
 	<key>Cocoon</key>
 	<dict>
 		<key>displayName</key>
 		<string>Cocoon</string>
+		<key>groupId</key>
+		<integer>1</integer>
 	</dict>
 	<key>Sail</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sail</string>
+		<key>groupId</key>
+		<integer>1</integer>
 	</dict>
 	<key>Ball</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball</string>
+		<key>groupId</key>
+		<integer>1</integer>
 	</dict>
 	<key>StraddleUpKnot</key>
 	<dict>
 		<key>displayName</key>
 		<string>Straddle Up (Knot)</string>
+		<key>groupId</key>
+		<integer>2</integer>
 	</dict>
 	<key>LaybackInvert</key>
 	<dict>
 		<key>displayName</key>
 		<string>Layback Invert</string>
+		<key>groupId</key>
+		<integer>2</integer>
 	</dict>
 	<key>FootLockAir</key>
 	<dict>
 		<key>displayName</key>
 		<string>Foot Lock from Air</string>
+		<key>groupId</key>
+		<integer>2</integer>
 	</dict>
 	<key>FlamencoGrip</key>
 	<dict>
 		<key>displayName</key>
 		<string>Flamenco Grip</string>
+		<key>groupId</key>
+		<integer>3</integer>
 	</dict>
 	<key>Pencil</key>
 	<dict>
 		<key>displayName</key>
 		<string>Pencil</string>
+		<key>groupId</key>
+		<integer>3</integer>
 	</dict>
 	<key>BallToPencil</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball → Pencil</string>
+		<key>groupId</key>
+		<integer>3</integer>
 	</dict>
 	<key>ClotheslineV2</key>
 	<dict>
 		<key>displayName</key>
 		<string>Clothesline vs. 2</string>
+		<key>groupId</key>
+		<integer>3</integer>
 	</dict>
 	<key>BowAndArrow</key>
 	<dict>
 		<key>displayName</key>
 		<string>Bow &amp; Arrow</string>
+		<key>groupId</key>
+		<integer>3</integer>
 	</dict>
 	<key>BentLegHipKeyGround</key>
 	<dict>
 		<key>displayName</key>
 		<string>Bent Leg Hip Key (ground)</string>
+		<key>groupId</key>
+		<integer>4</integer>
 	</dict>
 	<key>Arabesque</key>
 	<dict>
 		<key>displayName</key>
 		<string>Arabesque</string>
+		<key>groupId</key>
+		<integer>4</integer>
 	</dict>
 	<key>LegRollUp1Roll</key>
 	<dict>
 		<key>displayName</key>
 		<string>Leg Roll Up - 1 roll</string>
+		<key>groupId</key>
+		<integer>4</integer>
 	</dict>
 	<key>LegRollUp2Rolls</key>
 	<dict>
 		<key>displayName</key>
 		<string>Leg Roll Up - 2 rolls</string>
+		<key>groupId</key>
+		<integer>4</integer>
 	</dict>
 	<key>ClotheslineV1</key>
 	<dict>
 		<key>displayName</key>
 		<string>Clothesline vs. 1</string>
+		<key>groupId</key>
+		<integer>4</integer>
 	</dict>
 	<key>StraddleUpGround</key>
 	<dict>
 		<key>displayName</key>
 		<string>Straddle Up (from ground)</string>
+		<key>groupId</key>
+		<integer>5</integer>
 	</dict>
 	<key>Pike</key>
 	<dict>
 		<key>displayName</key>
 		<string>Pike</string>
+		<key>groupId</key>
+		<integer>5</integer>
 	</dict>
 	<key>BallToPencilToPike</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball → Pencil → Pike</string>
+		<key>groupId</key>
+		<integer>5</integer>
 	</dict>
 	<key>ManInTheMoonLegRollUp2Rolls</key>
 	<dict>
 		<key>displayName</key>
 		<string>Man in the Moon/Leg Roll Up - 2 rolls</string>
+		<key>groupId</key>
+		<integer>5</integer>
 	</dict>
 	<key>ShoulderStandLegRollUp2Rolls</key>
 	<dict>
 		<key>displayName</key>
 		<string>Shoulder Stand/Leg Roll Up - 2 rolls</string>
+		<key>groupId</key>
+		<integer>5</integer>
 	</dict>
 	<key>RussianStand</key>
 	<dict>
 		<key>displayName</key>
 		<string>Russian Stand</string>
+		<key>groupId</key>
+		<integer>6</integer>
 	</dict>
 	<key>RussianClimb</key>
 	<dict>
 		<key>displayName</key>
 		<string>Russian Climb</string>
+		<key>groupId</key>
+		<integer>6</integer>
 	</dict>
 	<key>LegRollUp3Rolls</key>
 	<dict>
 		<key>displayName</key>
 		<string>Leg Roll Up - 3 rolls</string>
+		<key>groupId</key>
+		<integer>6</integer>
 	</dict>
 	<key>SupportedBridge</key>
 	<dict>
 		<key>displayName</key>
 		<string>Supported Bridge</string>
+		<key>groupId</key>
+		<integer>6</integer>
 	</dict>
 	<key>HipKeyAir</key>
 	<dict>
 		<key>displayName</key>
 		<string>Hip Key (from air)</string>
+		<key>groupId</key>
+		<integer>7</integer>
 	</dict>
 	<key>SingleFootLockAir</key>
 	<dict>
 		<key>displayName</key>
 		<string>Single Foot Lock from Air</string>
+		<key>groupId</key>
+		<integer>7</integer>
 	</dict>
 	<key>SupportedBridgeNoHands</key>
 	<dict>
 		<key>displayName</key>
 		<string>Supported Bridge - no hands</string>
+		<key>groupId</key>
+		<integer>7</integer>
 	</dict>
 	<key>FlamingoArabesque</key>
 	<dict>
 		<key>displayName</key>
 		<string>Flamingo Arabesque</string>
+		<key>groupId</key>
+		<integer>7</integer>
 	</dict>
 	<key>StarFish</key>
 	<dict>
 		<key>displayName</key>
 		<string>Star Fish</string>
+		<key>groupId</key>
+		<integer>8</integer>
 	</dict>
 	<key>KneeHang</key>
 	<dict>
 		<key>displayName</key>
 		<string>Knee Hang</string>
+		<key>groupId</key>
+		<integer>8</integer>
 	</dict>
 	<key>StraddleUpAir</key>
 	<dict>
 		<key>displayName</key>
 		<string>Straddle Up (from Air)</string>
+		<key>groupId</key>
+		<integer>9</integer>
 	</dict>
 	<key>BallInversionAir</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball Inversion (from Air)</string>
+		<key>groupId</key>
+		<integer>9</integer>
 	</dict>
 	<key>HalfScorpion</key>
 	<dict>
 		<key>displayName</key>
 		<string>1/2 Scorpion</string>
+		<key>groupId</key>
+		<integer>9</integer>
 	</dict>
 	<key>LotusHangSingleFootLock</key>
 	<dict>
 		<key>displayName</key>
 		<string>Lotus Hang - single foot lock</string>
+		<key>groupId</key>
+		<integer>9</integer>
 	</dict>
 	<key>VerticalHang</key>
 	<dict>
 		<key>displayName</key>
 		<string>Vertical Hang</string>
+		<key>groupId</key>
+		<integer>10</integer>
 	</dict>
 	<key>LotusHangBasicFootLock</key>
 	<dict>
 		<key>displayName</key>
 		<string>Lotus Hang - basic foot lock</string>
+		<key>groupId</key>
+		<integer>10</integer>
 	</dict>
 	<key>DoubleFootLocksAir</key>
 	<dict>
 		<key>displayName</key>
 		<string>Double Foot Locks (from air)</string>
+		<key>groupId</key>
+		<integer>10</integer>
 	</dict>
 	<key>EmmaSits</key>
 	<dict>
 		<key>displayName</key>
 		<string>Emma sits</string>
+		<key>groupId</key>
+		<integer>11</integer>
 	</dict>
 	<key>SidewaysMiddleSplitsV3</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sideways Middle Splits vs. 3</string>
+		<key>groupId</key>
+		<integer>11</integer>
 	</dict>
 	<key>Splits</key>
 	<dict>
 		<key>displayName</key>
 		<string>Splits</string>
+		<key>groupId</key>
+		<integer>12</integer>
 	</dict>
 	<key>TheX</key>
 	<dict>
 		<key>displayName</key>
 		<string>The X</string>
+		<key>groupId</key>
+		<integer>13</integer>
 	</dict>
 	<key>Arrow</key>
 	<dict>
 		<key>displayName</key>
 		<string>Arrow</string>
+		<key>groupId</key>
+		<integer>13</integer>
 	</dict>
 	<key>SidewaysMiddleSplitsV2</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sideways Middle Splits vs. 2</string>
+		<key>groupId</key>
+		<integer>14</integer>
 	</dict>
 	<key>LegRollUpSplits</key>
 	<dict>
 		<key>displayName</key>
 		<string>Leg Roll Up from Splits</string>
+		<key>groupId</key>
+		<integer>14</integer>
 	</dict>
 	<key>SidewaysMiddleSplitsV1</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sideways Middle Splits vs. 1</string>
+		<key>groupId</key>
+		<integer>15</integer>
 	</dict>
 	<key>CrossBackStraddle</key>
 	<dict>
 		<key>displayName</key>
 		<string>Cross Back Straddle</string>
+		<key>groupId</key>
+		<integer>15</integer>
 	</dict>
 	<key>standingHipLeanVariations_noHands</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Hip Lean - No Hands</string>
+		<key>groupId</key>
+		<integer>16</integer>
 	</dict>
 	<key>standingHipLeanVariations_heartToCeilingNoHands</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Hip Lean - Heart to Ceiling w/ No Hands</string>
+		<key>groupId</key>
+		<integer>16</integer>
 	</dict>
 	<key>standingHipLeanVariations_singleFootLock</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Hip Lean - Single Foot Lock</string>
+		<key>groupId</key>
+		<integer>16</integer>
 	</dict>
 	<key>sittingHipLeanVariations_noHands</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sitting Hip Lean - No Hands</string>
+		<key>groupId</key>
+		<integer>17</integer>
 	</dict>
 	<key>sittingHipLeanVariations_oppositeSideLean</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sitting Hip Lean - Opposite Side Lean</string>
+		<key>groupId</key>
+		<integer>17</integer>
 	</dict>
 	<key>sittingHipLeanVariations_singleFootLock</key>
 	<dict>
 		<key>displayName</key>
 		<string>Sitting Hip Lean - Single Foot Lock</string>
+		<key>groupId</key>
+		<integer>17</integer>
 	</dict>
 	<key>ball_skinTheCatEntry</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Skin the Cat Entry</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_skinTheCatExit</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Skin the Cat Exit</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_cartWheels</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Cartwheels</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_birdcageDouble</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Birdcage - double</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_birdcageSingle</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Birdcage - single</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_stagLegs</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Stag Legs</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_fang</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Fang</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>ball_splits</key>
 	<dict>
 		<key>displayName</key>
 		<string>Ball - Splits</string>
+		<key>groupId</key>
+		<integer>18</integer>
 	</dict>
 	<key>cocoonVariations_fanOnFrontFabric</key>
 	<dict>
 		<key>displayName</key>
 		<string>Cocoon - Fan on front fabric</string>
+		<key>groupId</key>
+		<integer>19</integer>
 	</dict>
 	<key>cocoonVariations_fanOnBackFabric</key>
 	<dict>
 		<key>displayName</key>
 		<string>Cocoon - Fan on back fabric</string>
+		<key>groupId</key>
+		<integer>19</integer>
 	</dict>
 	<key>standingVariationsOnBasicFootlock_frontSail</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Basic Footlock - Front Sail</string>
+		<key>groupId</key>
+		<integer>20</integer>
 	</dict>
 	<key>standingVariationsOnBasicFootlock_backSail</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Basic Footlock - Back Sail</string>
+		<key>groupId</key>
+		<integer>20</integer>
 	</dict>
 	<key>standingVariationsOnBasicFootlock_noHandsFrontSail</key>
 	<dict>
 		<key>displayName</key>
 		<string>Standing Basic Footlock - No Hands Front Sail</string>
+		<key>groupId</key>
+		<integer>20</integer>
 	</dict>
 	<key>laybackInvertVariations_skinTheLaybackInvert</key>
 	<dict>
 		<key>displayName</key>
 		<string>Layback Invert - Skin the Layback Invert</string>
+		<key>groupId</key>
+		<integer>21</integer>
 	</dict>
 	<key>laybackInvertVariations_pike</key>
 	<dict>
 		<key>displayName</key>
 		<string>Layback Invert - Pike</string>
+		<key>groupId</key>
+		<integer>21</integer>
 	</dict>
 	<key>laybackInvertVariations_laybackInvertSplits</key>
 	<dict>
 		<key>displayName</key>
 		<string>Layback Invert - Layback Invert Splits</string>
+		<key>groupId</key>
+		<integer>21</integer>
 	</dict>
 	<key>arabesqueBackBalance</key>
 	<dict>
 		<key>displayName</key>
 		<string>Arabesque Back Balance</string>
+		<key>groupId</key>
+		<integer>22</integer>
 	</dict>
 	<key>basicLegRollUpVariations_kidneyHang</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Kidney Hang</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_kidneyHang_flamencoGripEntrance</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Kidney Hang - Flamenco Grip Entrance</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_kidneyHang_upAndOverFromManOnTheMoonEntrance</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Kidney Hang - Up &amp; Over from Man/Moon Entrance</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_splits</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Splits</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_splits_open</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Splits - Open</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_splits_revolved</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Splits - Revolved</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_gazelle</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Gazelle</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_gazelle_invertedSplitsOpen</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Gazelle - Inverted Splits open</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>basicLegRollUpVariations_gazelle_invertedSplitsRevolved</key>
 	<dict>
 		<key>displayName</key>
 		<string>Basic Leg Roll Up - Gazelle - Inverted Splits revolved</string>
+		<key>groupId</key>
+		<integer>23</integer>
 	</dict>
 	<key>shoulderSlingFromSupportedBridge</key>
 	<dict>
 		<key>displayName</key>
 		<string>Shoulder Sling from Supported Bridge</string>
+		<key>groupId</key>
+		<integer>24</integer>
 	</dict>
 	<key>roundTheBackHold_sailDance</key>
 	<dict>
 		<key>displayName</key>
 		<string>Round the Back Hold - Sail Dance</string>
+		<key>groupId</key>
+		<integer>25</integer>
 	</dict>
 	<key>ironT</key>
 	<dict>
 		<key>displayName</key>
 		<string>Iron T</string>
+		<key>groupId</key>
+		<integer>26</integer>
 	</dict>
 	<key>crossbackStraddleVariations_butterflyExit</key>
 	<dict>
 		<key>displayName</key>
 		<string>Crossback Straddle - Butterfly Exit</string>
+		<key>groupId</key>
+		<integer>27</integer>
 	</dict>
 	<key>crossbackStraddleVariations_transitionToSideMiddleSplitsV3</key>
 	<dict>
 		<key>displayName</key>
 		<string>Crossback Straddle - Transition to Side Middle Splits vs. 3</string>
+		<key>groupId</key>
+		<integer>27</integer>
 	</dict>
 	<key>crossbackStraddleVariations_splitsRollUpToXEntry</key>
 	<dict>
 		<key>displayName</key>
 		<string>Crossback Straddle - Splits roll up to X entry</string>
+		<key>groupId</key>
+		<integer>27</integer>
 	</dict>
 </dict>
 </plist>

@@ -39,7 +39,7 @@ struct MoveListView<Content: View>: View {
 	
 	@ViewBuilder
 	private var standardListContent: some View {
-		ForEach(AllMoves.grouped) { moveGroup in
+		ForEach(GroupedMoves.grouped) { moveGroup in
 			Section {
 				ForEach(moveGroup.moves) { moveName in
 					listRow(moveName)

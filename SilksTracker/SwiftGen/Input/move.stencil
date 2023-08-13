@@ -8,34 +8,26 @@
 // Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
 
 {% if files %}
-{% set accessModifier %}internal{% endset %}
+{% set plist files.first.document.data %}
+{# ======================= #}
 import Foundation
-{% macro fileBlock file %}
-    {% call documentBlock file file.document %}
-{% endmacro %}
-{% macro documentBlock file document %}
-{% for componentName, componentDict in document.data %}
-    {% set displayName %}{{ componentDict.displayName }}{% endset %}
-    {{ accessModifier }} static var {{ componentName }}: MoveName {
-        MoveName(codeSafeName: "{{ componentName }}",
-                 displayName: "{{ displayName }}")
-    }
+
+struct MoveNames {
+    private init() {}
+{% for componentName, componentDict in plist %}
+    static let {{ componentName }} = MoveName(
+        codeSafeName: "{{ componentName }}",
+        displayName: "{{ componentDict.displayName }}"
+    )
 {% endfor %}
 
-    {{accessModifier}} static var allMoves = [
-    {% for component in document.data %}
+    static var allMoves = [
+{% for component in plist %}
         {{ component }}{{ ", " if not forloop.last }}
-    {% endfor %}
+{% endfor %}
     ]
 
-    {{accessModifier}} static var moveCount = {{ document.data.count }}
-{% endmacro %}
-
-{{ accessModifier }} struct MoveNames {
-    private init() {}
-
-    
-{% call fileBlock files.first %}
+    static var moveCount = {{ plist.count }}
 }
     
 {% else %}

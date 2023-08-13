@@ -22,7 +22,7 @@
 		397BF6A52A48F11300F80E0F /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A42A48F11300F80E0F /* WorkoutListView.swift */; };
 		397BF6A72A48F12A00F80E0F /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A62A48F12A00F80E0F /* Workout.swift */; };
 		397BF6A92A48F15100F80E0F /* MoveGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6A82A48F15100F80E0F /* MoveGroup.swift */; };
-		397BF6AB2A48F17700F80E0F /* AllMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6AA2A48F17700F80E0F /* AllMoves.swift */; };
+		397BF6AB2A48F17700F80E0F /* GroupedMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */; };
 		397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */; };
 		397BF6B42A48F61000F80E0F /* MoveName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6B32A48F61000F80E0F /* MoveName.swift */; };
 		39ADA1912A3BCEDD00811244 /* SilksTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1902A3BCEDD00811244 /* SilksTrackerApp.swift */; };
@@ -73,7 +73,7 @@
 		397BF6A42A48F11300F80E0F /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
 		397BF6A62A48F12A00F80E0F /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		397BF6A82A48F15100F80E0F /* MoveGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveGroup.swift; sourceTree = "<group>"; };
-		397BF6AA2A48F17700F80E0F /* AllMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMoves.swift; sourceTree = "<group>"; };
+		397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedMoves.swift; sourceTree = "<group>"; };
 		397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPreviewModel.swift; sourceTree = "<group>"; };
 		397BF6B32A48F61000F80E0F /* MoveName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveName.swift; sourceTree = "<group>"; };
 		39ADA18D2A3BCEDD00811244 /* SilksTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilksTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,7 +257,7 @@
 				397BF6B02A48F5AC00F80E0F /* Preview */,
 				39ADA1C02A3BD12800811244 /* Move.swift */,
 				397BF6B32A48F61000F80E0F /* MoveName.swift */,
-				397BF6AA2A48F17700F80E0F /* AllMoves.swift */,
+				397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */,
 				397BF6A82A48F15100F80E0F /* MoveGroup.swift */,
 				397BF6A62A48F12A00F80E0F /* Workout.swift */,
 			);
@@ -472,7 +472,7 @@
 				397BF6A32A48E9CE00F80E0F /* SilksTabView.swift in Sources */,
 				39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */,
 				397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */,
-				397BF6AB2A48F17700F80E0F /* AllMoves.swift in Sources */,
+				397BF6AB2A48F17700F80E0F /* GroupedMoves.swift in Sources */,
 				39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */,
 				396A2B302A566CC20087B9CC /* MoveDetailView.swift in Sources */,
 				397BF6A72A48F12A00F80E0F /* Workout.swift in Sources */,

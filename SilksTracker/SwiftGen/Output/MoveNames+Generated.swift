@@ -9,387 +9,386 @@
 
 import Foundation
 
-internal struct MoveNames {
+struct MoveNames {
     private init() {}
+    static let Arabesque = MoveName(
+        codeSafeName: "Arabesque",
+        displayName: "Arabesque"
+    )
+    static let Arrow = MoveName(
+        codeSafeName: "Arrow",
+        displayName: "Arrow"
+    )
+    static let Ball = MoveName(
+        codeSafeName: "Ball",
+        displayName: "Ball"
+    )
+    static let BallInversionAir = MoveName(
+        codeSafeName: "BallInversionAir",
+        displayName: "Ball Inversion (from Air)"
+    )
+    static let BallToPencil = MoveName(
+        codeSafeName: "BallToPencil",
+        displayName: "Ball → Pencil"
+    )
+    static let BallToPencilToPike = MoveName(
+        codeSafeName: "BallToPencilToPike",
+        displayName: "Ball → Pencil → Pike"
+    )
+    static let BasicClimb = MoveName(
+        codeSafeName: "BasicClimb",
+        displayName: "Basic Climb"
+    )
+    static let BasicFootLock = MoveName(
+        codeSafeName: "BasicFootLock",
+        displayName: "Basic Foot Lock"
+    )
+    static let BasicStand = MoveName(
+        codeSafeName: "BasicStand",
+        displayName: "Basic Stand"
+    )
+    static let BentLegHipKeyGround = MoveName(
+        codeSafeName: "BentLegHipKeyGround",
+        displayName: "Bent Leg Hip Key (ground)"
+    )
+    static let BowAndArrow = MoveName(
+        codeSafeName: "BowAndArrow",
+        displayName: "Bow & Arrow"
+    )
+    static let ClotheslineV1 = MoveName(
+        codeSafeName: "ClotheslineV1",
+        displayName: "Clothesline vs. 1"
+    )
+    static let ClotheslineV2 = MoveName(
+        codeSafeName: "ClotheslineV2",
+        displayName: "Clothesline vs. 2"
+    )
+    static let Cocoon = MoveName(
+        codeSafeName: "Cocoon",
+        displayName: "Cocoon"
+    )
+    static let CrossBackStraddle = MoveName(
+        codeSafeName: "CrossBackStraddle",
+        displayName: "Cross Back Straddle"
+    )
+    static let DoubleFootLocksAir = MoveName(
+        codeSafeName: "DoubleFootLocksAir",
+        displayName: "Double Foot Locks (from air)"
+    )
+    static let EmmaSits = MoveName(
+        codeSafeName: "EmmaSits",
+        displayName: "Emma sits"
+    )
+    static let FlamencoGrip = MoveName(
+        codeSafeName: "FlamencoGrip",
+        displayName: "Flamenco Grip"
+    )
+    static let FlamingoArabesque = MoveName(
+        codeSafeName: "FlamingoArabesque",
+        displayName: "Flamingo Arabesque"
+    )
+    static let FootLockAir = MoveName(
+        codeSafeName: "FootLockAir",
+        displayName: "Foot Lock from Air"
+    )
+    static let HalfScorpion = MoveName(
+        codeSafeName: "HalfScorpion",
+        displayName: "1/2 Scorpion"
+    )
+    static let HipKeyAir = MoveName(
+        codeSafeName: "HipKeyAir",
+        displayName: "Hip Key (from air)"
+    )
+    static let KneeHang = MoveName(
+        codeSafeName: "KneeHang",
+        displayName: "Knee Hang"
+    )
+    static let LaybackInvert = MoveName(
+        codeSafeName: "LaybackInvert",
+        displayName: "Layback Invert"
+    )
+    static let LegRollUp1Roll = MoveName(
+        codeSafeName: "LegRollUp1Roll",
+        displayName: "Leg Roll Up - 1 roll"
+    )
+    static let LegRollUp2Rolls = MoveName(
+        codeSafeName: "LegRollUp2Rolls",
+        displayName: "Leg Roll Up - 2 rolls"
+    )
+    static let LegRollUp3Rolls = MoveName(
+        codeSafeName: "LegRollUp3Rolls",
+        displayName: "Leg Roll Up - 3 rolls"
+    )
+    static let LegRollUpSplits = MoveName(
+        codeSafeName: "LegRollUpSplits",
+        displayName: "Leg Roll Up from Splits"
+    )
+    static let LotusHangBasicFootLock = MoveName(
+        codeSafeName: "LotusHangBasicFootLock",
+        displayName: "Lotus Hang - basic foot lock"
+    )
+    static let LotusHangSingleFootLock = MoveName(
+        codeSafeName: "LotusHangSingleFootLock",
+        displayName: "Lotus Hang - single foot lock"
+    )
+    static let ManInTheMoonLegRollUp2Rolls = MoveName(
+        codeSafeName: "ManInTheMoonLegRollUp2Rolls",
+        displayName: "Man in the Moon/Leg Roll Up - 2 rolls"
+    )
+    static let ManualHipKey = MoveName(
+        codeSafeName: "ManualHipKey",
+        displayName: "Manual Hip Key"
+    )
+    static let Pencil = MoveName(
+        codeSafeName: "Pencil",
+        displayName: "Pencil"
+    )
+    static let Pike = MoveName(
+        codeSafeName: "Pike",
+        displayName: "Pike"
+    )
+    static let RussianClimb = MoveName(
+        codeSafeName: "RussianClimb",
+        displayName: "Russian Climb"
+    )
+    static let RussianStand = MoveName(
+        codeSafeName: "RussianStand",
+        displayName: "Russian Stand"
+    )
+    static let Sail = MoveName(
+        codeSafeName: "Sail",
+        displayName: "Sail"
+    )
+    static let ShoulderLockOff = MoveName(
+        codeSafeName: "ShoulderLockOff",
+        displayName: "Shoulder Lock Off"
+    )
+    static let ShoulderStandLegRollUp2Rolls = MoveName(
+        codeSafeName: "ShoulderStandLegRollUp2Rolls",
+        displayName: "Shoulder Stand/Leg Roll Up - 2 rolls"
+    )
+    static let SidewaysMiddleSplitsV1 = MoveName(
+        codeSafeName: "SidewaysMiddleSplitsV1",
+        displayName: "Sideways Middle Splits vs. 1"
+    )
+    static let SidewaysMiddleSplitsV2 = MoveName(
+        codeSafeName: "SidewaysMiddleSplitsV2",
+        displayName: "Sideways Middle Splits vs. 2"
+    )
+    static let SidewaysMiddleSplitsV3 = MoveName(
+        codeSafeName: "SidewaysMiddleSplitsV3",
+        displayName: "Sideways Middle Splits vs. 3"
+    )
+    static let SingleFootLockAir = MoveName(
+        codeSafeName: "SingleFootLockAir",
+        displayName: "Single Foot Lock from Air"
+    )
+    static let SittingHipLean = MoveName(
+        codeSafeName: "SittingHipLean",
+        displayName: "Sitting Hip Lean"
+    )
+    static let Splits = MoveName(
+        codeSafeName: "Splits",
+        displayName: "Splits"
+    )
+    static let StandardDescent = MoveName(
+        codeSafeName: "StandardDescent",
+        displayName: "Standard Descent"
+    )
+    static let StandingHipLean = MoveName(
+        codeSafeName: "StandingHipLean",
+        displayName: "Standing Hip Lean"
+    )
+    static let StarFish = MoveName(
+        codeSafeName: "StarFish",
+        displayName: "Star Fish"
+    )
+    static let StraddleUpAir = MoveName(
+        codeSafeName: "StraddleUpAir",
+        displayName: "Straddle Up (from Air)"
+    )
+    static let StraddleUpGround = MoveName(
+        codeSafeName: "StraddleUpGround",
+        displayName: "Straddle Up (from ground)"
+    )
+    static let StraddleUpKnot = MoveName(
+        codeSafeName: "StraddleUpKnot",
+        displayName: "Straddle Up (Knot)"
+    )
+    static let StraightArmHang = MoveName(
+        codeSafeName: "StraightArmHang",
+        displayName: "Straight Arm Hang"
+    )
+    static let SupportedBridge = MoveName(
+        codeSafeName: "SupportedBridge",
+        displayName: "Supported Bridge"
+    )
+    static let SupportedBridgeNoHands = MoveName(
+        codeSafeName: "SupportedBridgeNoHands",
+        displayName: "Supported Bridge - no hands"
+    )
+    static let TheX = MoveName(
+        codeSafeName: "TheX",
+        displayName: "The X"
+    )
+    static let VerticalHang = MoveName(
+        codeSafeName: "VerticalHang",
+        displayName: "Vertical Hang"
+    )
+    static let arabesqueBackBalance = MoveName(
+        codeSafeName: "arabesqueBackBalance",
+        displayName: "Arabesque Back Balance"
+    )
+    static let ball_birdcageDouble = MoveName(
+        codeSafeName: "ball_birdcageDouble",
+        displayName: "Ball - Birdcage - double"
+    )
+    static let ball_birdcageSingle = MoveName(
+        codeSafeName: "ball_birdcageSingle",
+        displayName: "Ball - Birdcage - single"
+    )
+    static let ball_cartWheels = MoveName(
+        codeSafeName: "ball_cartWheels",
+        displayName: "Ball - Cartwheels"
+    )
+    static let ball_fang = MoveName(
+        codeSafeName: "ball_fang",
+        displayName: "Ball - Fang"
+    )
+    static let ball_skinTheCatEntry = MoveName(
+        codeSafeName: "ball_skinTheCatEntry",
+        displayName: "Ball - Skin the Cat Entry"
+    )
+    static let ball_skinTheCatExit = MoveName(
+        codeSafeName: "ball_skinTheCatExit",
+        displayName: "Ball - Skin the Cat Exit"
+    )
+    static let ball_splits = MoveName(
+        codeSafeName: "ball_splits",
+        displayName: "Ball - Splits"
+    )
+    static let ball_stagLegs = MoveName(
+        codeSafeName: "ball_stagLegs",
+        displayName: "Ball - Stag Legs"
+    )
+    static let basicLegRollUpVariations_gazelle = MoveName(
+        codeSafeName: "basicLegRollUpVariations_gazelle",
+        displayName: "Basic Leg Roll Up - Gazelle"
+    )
+    static let basicLegRollUpVariations_gazelle_invertedSplitsOpen = MoveName(
+        codeSafeName: "basicLegRollUpVariations_gazelle_invertedSplitsOpen",
+        displayName: "Basic Leg Roll Up - Gazelle - Inverted Splits open"
+    )
+    static let basicLegRollUpVariations_gazelle_invertedSplitsRevolved = MoveName(
+        codeSafeName: "basicLegRollUpVariations_gazelle_invertedSplitsRevolved",
+        displayName: "Basic Leg Roll Up - Gazelle - Inverted Splits revolved"
+    )
+    static let basicLegRollUpVariations_kidneyHang = MoveName(
+        codeSafeName: "basicLegRollUpVariations_kidneyHang",
+        displayName: "Basic Leg Roll Up - Kidney Hang"
+    )
+    static let basicLegRollUpVariations_kidneyHang_flamencoGripEntrance = MoveName(
+        codeSafeName: "basicLegRollUpVariations_kidneyHang_flamencoGripEntrance",
+        displayName: "Basic Leg Roll Up - Kidney Hang - Flamenco Grip Entrance"
+    )
+    static let basicLegRollUpVariations_kidneyHang_upAndOverFromManOnTheMoonEntrance = MoveName(
+        codeSafeName: "basicLegRollUpVariations_kidneyHang_upAndOverFromManOnTheMoonEntrance",
+        displayName: "Basic Leg Roll Up - Kidney Hang - Up & Over from Man/Moon Entrance"
+    )
+    static let basicLegRollUpVariations_splits = MoveName(
+        codeSafeName: "basicLegRollUpVariations_splits",
+        displayName: "Basic Leg Roll Up - Splits"
+    )
+    static let basicLegRollUpVariations_splits_open = MoveName(
+        codeSafeName: "basicLegRollUpVariations_splits_open",
+        displayName: "Basic Leg Roll Up - Splits - Open"
+    )
+    static let basicLegRollUpVariations_splits_revolved = MoveName(
+        codeSafeName: "basicLegRollUpVariations_splits_revolved",
+        displayName: "Basic Leg Roll Up - Splits - Revolved"
+    )
+    static let cocoonVariations_fanOnBackFabric = MoveName(
+        codeSafeName: "cocoonVariations_fanOnBackFabric",
+        displayName: "Cocoon - Fan on back fabric"
+    )
+    static let cocoonVariations_fanOnFrontFabric = MoveName(
+        codeSafeName: "cocoonVariations_fanOnFrontFabric",
+        displayName: "Cocoon - Fan on front fabric"
+    )
+    static let crossbackStraddleVariations_butterflyExit = MoveName(
+        codeSafeName: "crossbackStraddleVariations_butterflyExit",
+        displayName: "Crossback Straddle - Butterfly Exit"
+    )
+    static let crossbackStraddleVariations_splitsRollUpToXEntry = MoveName(
+        codeSafeName: "crossbackStraddleVariations_splitsRollUpToXEntry",
+        displayName: "Crossback Straddle - Splits roll up to X entry"
+    )
+    static let crossbackStraddleVariations_transitionToSideMiddleSplitsV3 = MoveName(
+        codeSafeName: "crossbackStraddleVariations_transitionToSideMiddleSplitsV3",
+        displayName: "Crossback Straddle - Transition to Side Middle Splits vs. 3"
+    )
+    static let ironT = MoveName(
+        codeSafeName: "ironT",
+        displayName: "Iron T"
+    )
+    static let laybackInvertVariations_laybackInvertSplits = MoveName(
+        codeSafeName: "laybackInvertVariations_laybackInvertSplits",
+        displayName: "Layback Invert - Layback Invert Splits"
+    )
+    static let laybackInvertVariations_pike = MoveName(
+        codeSafeName: "laybackInvertVariations_pike",
+        displayName: "Layback Invert - Pike"
+    )
+    static let laybackInvertVariations_skinTheLaybackInvert = MoveName(
+        codeSafeName: "laybackInvertVariations_skinTheLaybackInvert",
+        displayName: "Layback Invert - Skin the Layback Invert"
+    )
+    static let roundTheBackHold_sailDance = MoveName(
+        codeSafeName: "roundTheBackHold_sailDance",
+        displayName: "Round the Back Hold - Sail Dance"
+    )
+    static let shoulderSlingFromSupportedBridge = MoveName(
+        codeSafeName: "shoulderSlingFromSupportedBridge",
+        displayName: "Shoulder Sling from Supported Bridge"
+    )
+    static let sittingHipLeanVariations_noHands = MoveName(
+        codeSafeName: "sittingHipLeanVariations_noHands",
+        displayName: "Sitting Hip Lean - No Hands"
+    )
+    static let sittingHipLeanVariations_oppositeSideLean = MoveName(
+        codeSafeName: "sittingHipLeanVariations_oppositeSideLean",
+        displayName: "Sitting Hip Lean - Opposite Side Lean"
+    )
+    static let sittingHipLeanVariations_singleFootLock = MoveName(
+        codeSafeName: "sittingHipLeanVariations_singleFootLock",
+        displayName: "Sitting Hip Lean - Single Foot Lock"
+    )
+    static let standingHipLeanVariations_heartToCeilingNoHands = MoveName(
+        codeSafeName: "standingHipLeanVariations_heartToCeilingNoHands",
+        displayName: "Standing Hip Lean - Heart to Ceiling w/ No Hands"
+    )
+    static let standingHipLeanVariations_noHands = MoveName(
+        codeSafeName: "standingHipLeanVariations_noHands",
+        displayName: "Standing Hip Lean - No Hands"
+    )
+    static let standingHipLeanVariations_singleFootLock = MoveName(
+        codeSafeName: "standingHipLeanVariations_singleFootLock",
+        displayName: "Standing Hip Lean - Single Foot Lock"
+    )
+    static let standingVariationsOnBasicFootlock_backSail = MoveName(
+        codeSafeName: "standingVariationsOnBasicFootlock_backSail",
+        displayName: "Standing Basic Footlock - Back Sail"
+    )
+    static let standingVariationsOnBasicFootlock_frontSail = MoveName(
+        codeSafeName: "standingVariationsOnBasicFootlock_frontSail",
+        displayName: "Standing Basic Footlock - Front Sail"
+    )
+    static let standingVariationsOnBasicFootlock_noHandsFrontSail = MoveName(
+        codeSafeName: "standingVariationsOnBasicFootlock_noHandsFrontSail",
+        displayName: "Standing Basic Footlock - No Hands Front Sail"
+    )
 
-    internal static var Arabesque: MoveName {
-        MoveName(codeSafeName: "Arabesque",
-                 displayName: "Arabesque")
-    }
-    internal static var Arrow: MoveName {
-        MoveName(codeSafeName: "Arrow",
-                 displayName: "Arrow")
-    }
-    internal static var Ball: MoveName {
-        MoveName(codeSafeName: "Ball",
-                 displayName: "Ball")
-    }
-    internal static var BallInversionAir: MoveName {
-        MoveName(codeSafeName: "BallInversionAir",
-                 displayName: "Ball Inversion (from Air)")
-    }
-    internal static var BallToPencil: MoveName {
-        MoveName(codeSafeName: "BallToPencil",
-                 displayName: "Ball → Pencil")
-    }
-    internal static var BallToPencilToPike: MoveName {
-        MoveName(codeSafeName: "BallToPencilToPike",
-                 displayName: "Ball → Pencil → Pike")
-    }
-    internal static var BasicClimb: MoveName {
-        MoveName(codeSafeName: "BasicClimb",
-                 displayName: "Basic Climb")
-    }
-    internal static var BasicFootLock: MoveName {
-        MoveName(codeSafeName: "BasicFootLock",
-                 displayName: "Basic Foot Lock")
-    }
-    internal static var BasicStand: MoveName {
-        MoveName(codeSafeName: "BasicStand",
-                 displayName: "Basic Stand")
-    }
-    internal static var BentLegHipKeyGround: MoveName {
-        MoveName(codeSafeName: "BentLegHipKeyGround",
-                 displayName: "Bent Leg Hip Key (ground)")
-    }
-    internal static var BowAndArrow: MoveName {
-        MoveName(codeSafeName: "BowAndArrow",
-                 displayName: "Bow & Arrow")
-    }
-    internal static var ClotheslineV1: MoveName {
-        MoveName(codeSafeName: "ClotheslineV1",
-                 displayName: "Clothesline vs. 1")
-    }
-    internal static var ClotheslineV2: MoveName {
-        MoveName(codeSafeName: "ClotheslineV2",
-                 displayName: "Clothesline vs. 2")
-    }
-    internal static var Cocoon: MoveName {
-        MoveName(codeSafeName: "Cocoon",
-                 displayName: "Cocoon")
-    }
-    internal static var CrossBackStraddle: MoveName {
-        MoveName(codeSafeName: "CrossBackStraddle",
-                 displayName: "Cross Back Straddle")
-    }
-    internal static var DoubleFootLocksAir: MoveName {
-        MoveName(codeSafeName: "DoubleFootLocksAir",
-                 displayName: "Double Foot Locks (from air)")
-    }
-    internal static var EmmaSits: MoveName {
-        MoveName(codeSafeName: "EmmaSits",
-                 displayName: "Emma sits")
-    }
-    internal static var FlamencoGrip: MoveName {
-        MoveName(codeSafeName: "FlamencoGrip",
-                 displayName: "Flamenco Grip")
-    }
-    internal static var FlamingoArabesque: MoveName {
-        MoveName(codeSafeName: "FlamingoArabesque",
-                 displayName: "Flamingo Arabesque")
-    }
-    internal static var FootLockAir: MoveName {
-        MoveName(codeSafeName: "FootLockAir",
-                 displayName: "Foot Lock from Air")
-    }
-    internal static var HalfScorpion: MoveName {
-        MoveName(codeSafeName: "HalfScorpion",
-                 displayName: "1/2 Scorpion")
-    }
-    internal static var HipKeyAir: MoveName {
-        MoveName(codeSafeName: "HipKeyAir",
-                 displayName: "Hip Key (from air)")
-    }
-    internal static var KneeHang: MoveName {
-        MoveName(codeSafeName: "KneeHang",
-                 displayName: "Knee Hang")
-    }
-    internal static var LaybackInvert: MoveName {
-        MoveName(codeSafeName: "LaybackInvert",
-                 displayName: "Layback Invert")
-    }
-    internal static var LegRollUp1Roll: MoveName {
-        MoveName(codeSafeName: "LegRollUp1Roll",
-                 displayName: "Leg Roll Up - 1 roll")
-    }
-    internal static var LegRollUp2Rolls: MoveName {
-        MoveName(codeSafeName: "LegRollUp2Rolls",
-                 displayName: "Leg Roll Up - 2 rolls")
-    }
-    internal static var LegRollUp3Rolls: MoveName {
-        MoveName(codeSafeName: "LegRollUp3Rolls",
-                 displayName: "Leg Roll Up - 3 rolls")
-    }
-    internal static var LegRollUpSplits: MoveName {
-        MoveName(codeSafeName: "LegRollUpSplits",
-                 displayName: "Leg Roll Up from Splits")
-    }
-    internal static var LotusHangBasicFootLock: MoveName {
-        MoveName(codeSafeName: "LotusHangBasicFootLock",
-                 displayName: "Lotus Hang - basic foot lock")
-    }
-    internal static var LotusHangSingleFootLock: MoveName {
-        MoveName(codeSafeName: "LotusHangSingleFootLock",
-                 displayName: "Lotus Hang - single foot lock")
-    }
-    internal static var ManInTheMoonLegRollUp2Rolls: MoveName {
-        MoveName(codeSafeName: "ManInTheMoonLegRollUp2Rolls",
-                 displayName: "Man in the Moon/Leg Roll Up - 2 rolls")
-    }
-    internal static var ManualHipKey: MoveName {
-        MoveName(codeSafeName: "ManualHipKey",
-                 displayName: "Manual Hip Key")
-    }
-    internal static var Pencil: MoveName {
-        MoveName(codeSafeName: "Pencil",
-                 displayName: "Pencil")
-    }
-    internal static var Pike: MoveName {
-        MoveName(codeSafeName: "Pike",
-                 displayName: "Pike")
-    }
-    internal static var RussianClimb: MoveName {
-        MoveName(codeSafeName: "RussianClimb",
-                 displayName: "Russian Climb")
-    }
-    internal static var RussianStand: MoveName {
-        MoveName(codeSafeName: "RussianStand",
-                 displayName: "Russian Stand")
-    }
-    internal static var Sail: MoveName {
-        MoveName(codeSafeName: "Sail",
-                 displayName: "Sail")
-    }
-    internal static var ShoulderLockOff: MoveName {
-        MoveName(codeSafeName: "ShoulderLockOff",
-                 displayName: "Shoulder Lock Off")
-    }
-    internal static var ShoulderStandLegRollUp2Rolls: MoveName {
-        MoveName(codeSafeName: "ShoulderStandLegRollUp2Rolls",
-                 displayName: "Shoulder Stand/Leg Roll Up - 2 rolls")
-    }
-    internal static var SidewaysMiddleSplitsV1: MoveName {
-        MoveName(codeSafeName: "SidewaysMiddleSplitsV1",
-                 displayName: "Sideways Middle Splits vs. 1")
-    }
-    internal static var SidewaysMiddleSplitsV2: MoveName {
-        MoveName(codeSafeName: "SidewaysMiddleSplitsV2",
-                 displayName: "Sideways Middle Splits vs. 2")
-    }
-    internal static var SidewaysMiddleSplitsV3: MoveName {
-        MoveName(codeSafeName: "SidewaysMiddleSplitsV3",
-                 displayName: "Sideways Middle Splits vs. 3")
-    }
-    internal static var SingleFootLockAir: MoveName {
-        MoveName(codeSafeName: "SingleFootLockAir",
-                 displayName: "Single Foot Lock from Air")
-    }
-    internal static var SittingHipLean: MoveName {
-        MoveName(codeSafeName: "SittingHipLean",
-                 displayName: "Sitting Hip Lean")
-    }
-    internal static var Splits: MoveName {
-        MoveName(codeSafeName: "Splits",
-                 displayName: "Splits")
-    }
-    internal static var StandardDescent: MoveName {
-        MoveName(codeSafeName: "StandardDescent",
-                 displayName: "Standard Descent")
-    }
-    internal static var StandingHipLean: MoveName {
-        MoveName(codeSafeName: "StandingHipLean",
-                 displayName: "Standing Hip Lean")
-    }
-    internal static var StarFish: MoveName {
-        MoveName(codeSafeName: "StarFish",
-                 displayName: "Star Fish")
-    }
-    internal static var StraddleUpAir: MoveName {
-        MoveName(codeSafeName: "StraddleUpAir",
-                 displayName: "Straddle Up (from Air)")
-    }
-    internal static var StraddleUpGround: MoveName {
-        MoveName(codeSafeName: "StraddleUpGround",
-                 displayName: "Straddle Up (from ground)")
-    }
-    internal static var StraddleUpKnot: MoveName {
-        MoveName(codeSafeName: "StraddleUpKnot",
-                 displayName: "Straddle Up (Knot)")
-    }
-    internal static var StraightArmHang: MoveName {
-        MoveName(codeSafeName: "StraightArmHang",
-                 displayName: "Straight Arm Hang")
-    }
-    internal static var SupportedBridge: MoveName {
-        MoveName(codeSafeName: "SupportedBridge",
-                 displayName: "Supported Bridge")
-    }
-    internal static var SupportedBridgeNoHands: MoveName {
-        MoveName(codeSafeName: "SupportedBridgeNoHands",
-                 displayName: "Supported Bridge - no hands")
-    }
-    internal static var TheX: MoveName {
-        MoveName(codeSafeName: "TheX",
-                 displayName: "The X")
-    }
-    internal static var VerticalHang: MoveName {
-        MoveName(codeSafeName: "VerticalHang",
-                 displayName: "Vertical Hang")
-    }
-    internal static var arabesqueBackBalance: MoveName {
-        MoveName(codeSafeName: "arabesqueBackBalance",
-                 displayName: "Arabesque Back Balance")
-    }
-    internal static var ball_birdcageDouble: MoveName {
-        MoveName(codeSafeName: "ball_birdcageDouble",
-                 displayName: "Ball - Birdcage - double")
-    }
-    internal static var ball_birdcageSingle: MoveName {
-        MoveName(codeSafeName: "ball_birdcageSingle",
-                 displayName: "Ball - Birdcage - single")
-    }
-    internal static var ball_cartWheels: MoveName {
-        MoveName(codeSafeName: "ball_cartWheels",
-                 displayName: "Ball - Cartwheels")
-    }
-    internal static var ball_fang: MoveName {
-        MoveName(codeSafeName: "ball_fang",
-                 displayName: "Ball - Fang")
-    }
-    internal static var ball_skinTheCatEntry: MoveName {
-        MoveName(codeSafeName: "ball_skinTheCatEntry",
-                 displayName: "Ball - Skin the Cat Entry")
-    }
-    internal static var ball_skinTheCatExit: MoveName {
-        MoveName(codeSafeName: "ball_skinTheCatExit",
-                 displayName: "Ball - Skin the Cat Exit")
-    }
-    internal static var ball_splits: MoveName {
-        MoveName(codeSafeName: "ball_splits",
-                 displayName: "Ball - Splits")
-    }
-    internal static var ball_stagLegs: MoveName {
-        MoveName(codeSafeName: "ball_stagLegs",
-                 displayName: "Ball - Stag Legs")
-    }
-    internal static var basicLegRollUpVariations_gazelle: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_gazelle",
-                 displayName: "Basic Leg Roll Up - Gazelle")
-    }
-    internal static var basicLegRollUpVariations_gazelle_invertedSplitsOpen: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_gazelle_invertedSplitsOpen",
-                 displayName: "Basic Leg Roll Up - Gazelle - Inverted Splits open")
-    }
-    internal static var basicLegRollUpVariations_gazelle_invertedSplitsRevolved: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_gazelle_invertedSplitsRevolved",
-                 displayName: "Basic Leg Roll Up - Gazelle - Inverted Splits revolved")
-    }
-    internal static var basicLegRollUpVariations_kidneyHang: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_kidneyHang",
-                 displayName: "Basic Leg Roll Up - Kidney Hang")
-    }
-    internal static var basicLegRollUpVariations_kidneyHang_flamencoGripEntrance: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_kidneyHang_flamencoGripEntrance",
-                 displayName: "Basic Leg Roll Up - Kidney Hang - Flamenco Grip Entrance")
-    }
-    internal static var basicLegRollUpVariations_kidneyHang_upAndOverFromManOnTheMoonEntrance: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_kidneyHang_upAndOverFromManOnTheMoonEntrance",
-                 displayName: "Basic Leg Roll Up - Kidney Hang - Up & Over from Man/Moon Entrance")
-    }
-    internal static var basicLegRollUpVariations_splits: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_splits",
-                 displayName: "Basic Leg Roll Up - Splits")
-    }
-    internal static var basicLegRollUpVariations_splits_open: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_splits_open",
-                 displayName: "Basic Leg Roll Up - Splits - Open")
-    }
-    internal static var basicLegRollUpVariations_splits_revolved: MoveName {
-        MoveName(codeSafeName: "basicLegRollUpVariations_splits_revolved",
-                 displayName: "Basic Leg Roll Up - Splits - Revolved")
-    }
-    internal static var cocoonVariations_fanOnBackFabric: MoveName {
-        MoveName(codeSafeName: "cocoonVariations_fanOnBackFabric",
-                 displayName: "Cocoon - Fan on back fabric")
-    }
-    internal static var cocoonVariations_fanOnFrontFabric: MoveName {
-        MoveName(codeSafeName: "cocoonVariations_fanOnFrontFabric",
-                 displayName: "Cocoon - Fan on front fabric")
-    }
-    internal static var crossbackStraddleVariations_butterflyExit: MoveName {
-        MoveName(codeSafeName: "crossbackStraddleVariations_butterflyExit",
-                 displayName: "Crossback Straddle - Butterfly Exit")
-    }
-    internal static var crossbackStraddleVariations_splitsRollUpToXEntry: MoveName {
-        MoveName(codeSafeName: "crossbackStraddleVariations_splitsRollUpToXEntry",
-                 displayName: "Crossback Straddle - Splits roll up to X entry")
-    }
-    internal static var crossbackStraddleVariations_transitionToSideMiddleSplitsV3: MoveName {
-        MoveName(codeSafeName: "crossbackStraddleVariations_transitionToSideMiddleSplitsV3",
-                 displayName: "Crossback Straddle - Transition to Side Middle Splits vs. 3")
-    }
-    internal static var ironT: MoveName {
-        MoveName(codeSafeName: "ironT",
-                 displayName: "Iron T")
-    }
-    internal static var laybackInvertVariations_laybackInvertSplits: MoveName {
-        MoveName(codeSafeName: "laybackInvertVariations_laybackInvertSplits",
-                 displayName: "Layback Invert - Layback Invert Splits")
-    }
-    internal static var laybackInvertVariations_pike: MoveName {
-        MoveName(codeSafeName: "laybackInvertVariations_pike",
-                 displayName: "Layback Invert - Pike")
-    }
-    internal static var laybackInvertVariations_skinTheLaybackInvert: MoveName {
-        MoveName(codeSafeName: "laybackInvertVariations_skinTheLaybackInvert",
-                 displayName: "Layback Invert - Skin the Layback Invert")
-    }
-    internal static var roundTheBackHold_sailDance: MoveName {
-        MoveName(codeSafeName: "roundTheBackHold_sailDance",
-                 displayName: "Round the Back Hold - Sail Dance")
-    }
-    internal static var shoulderSlingFromSupportedBridge: MoveName {
-        MoveName(codeSafeName: "shoulderSlingFromSupportedBridge",
-                 displayName: "Shoulder Sling from Supported Bridge")
-    }
-    internal static var sittingHipLeanVariations_noHands: MoveName {
-        MoveName(codeSafeName: "sittingHipLeanVariations_noHands",
-                 displayName: "Sitting Hip Lean - No Hands")
-    }
-    internal static var sittingHipLeanVariations_oppositeSideLean: MoveName {
-        MoveName(codeSafeName: "sittingHipLeanVariations_oppositeSideLean",
-                 displayName: "Sitting Hip Lean - Opposite Side Lean")
-    }
-    internal static var sittingHipLeanVariations_singleFootLock: MoveName {
-        MoveName(codeSafeName: "sittingHipLeanVariations_singleFootLock",
-                 displayName: "Sitting Hip Lean - Single Foot Lock")
-    }
-    internal static var standingHipLeanVariations_heartToCeilingNoHands: MoveName {
-        MoveName(codeSafeName: "standingHipLeanVariations_heartToCeilingNoHands",
-                 displayName: "Standing Hip Lean - Heart to Ceiling w/ No Hands")
-    }
-    internal static var standingHipLeanVariations_noHands: MoveName {
-        MoveName(codeSafeName: "standingHipLeanVariations_noHands",
-                 displayName: "Standing Hip Lean - No Hands")
-    }
-    internal static var standingHipLeanVariations_singleFootLock: MoveName {
-        MoveName(codeSafeName: "standingHipLeanVariations_singleFootLock",
-                 displayName: "Standing Hip Lean - Single Foot Lock")
-    }
-    internal static var standingVariationsOnBasicFootlock_backSail: MoveName {
-        MoveName(codeSafeName: "standingVariationsOnBasicFootlock_backSail",
-                 displayName: "Standing Basic Footlock - Back Sail")
-    }
-    internal static var standingVariationsOnBasicFootlock_frontSail: MoveName {
-        MoveName(codeSafeName: "standingVariationsOnBasicFootlock_frontSail",
-                 displayName: "Standing Basic Footlock - Front Sail")
-    }
-    internal static var standingVariationsOnBasicFootlock_noHandsFrontSail: MoveName {
-        MoveName(codeSafeName: "standingVariationsOnBasicFootlock_noHandsFrontSail",
-                 displayName: "Standing Basic Footlock - No Hands Front Sail")
-    }
-
-    internal static var allMoves = [
+    static var allMoves = [
         Arabesque, 
         Arrow, 
         Ball, 
@@ -486,5 +485,5 @@ internal struct MoveNames {
         standingVariationsOnBasicFootlock_noHandsFrontSail
     ]
 
-    internal static var moveCount = 94
+    static var moveCount = 94
 }

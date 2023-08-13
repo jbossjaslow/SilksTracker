@@ -12,7 +12,7 @@ import SwiftData
 final class Workout {
 	@Attribute(.unique) let id: UUID
 	var date: Date
-	@Relationship(.nullify, inverse: \Move.workouts)
+	@Relationship(deleteRule: .nullify, inverse: \Move.workouts)
 	private(set) var moves: [Move]
 	var sticker: String
 	var stickerRotation: Double

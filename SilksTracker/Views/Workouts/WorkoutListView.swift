@@ -13,6 +13,8 @@ struct WorkoutListView: View {
 	@Query(sort: \Workout.date, order: .forward)
 	var workouts: [Workout]
 	
+	@State var printedWorkoutsText = ""
+	
     var body: some View {
 		NavigationStack {
 			VStack {
@@ -49,16 +51,13 @@ struct WorkoutListView: View {
 		}
     }
 	
+	@State private var showPrintDataSheet = false
+	
 	private var printDataButton: some View {
 		Button("Print all data") {
-			for workout in workouts {
-				print(workout.date.formatted(date: .complete,
-											 time: .shortened))
-				for move in workout.moves.sorted() {
-					print("- \(move.name)")
-				}
-				print("")
-			}
+			generateWorkoutsText()
+			print(printedWorkoutsText)
+			showPrintDataSheet = true
 		}
 		.foregroundStyle(Color.white)
 		.padding()
@@ -66,6 +65,21 @@ struct WorkoutListView: View {
 		.background(Color.blue)
 		.clipShape(RoundedRectangle(cornerRadius: 8))
 		.padding(.horizontal)
+		.sheet(isPresented: $showPrintDataSheet) {
+			TextEditor(text: $printedWorkoutsText)
+		}
+	}
+	
+	private func generateWorkoutsText() {
+		printedWorkoutsText = ""
+		
+		for workout in workouts {
+			printedWorkoutsText += "\n-- \(workout.date.formatted(date: .complete, time: .shortened))"
+			for move in workout.moves.sorted() {
+				printedWorkoutsText += "\n\(move.name)"
+			}
+			printedWorkoutsText += "\n"
+		}
 	}
 }
 
