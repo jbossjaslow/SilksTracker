@@ -13,6 +13,7 @@ struct StickerSelectionView: View {
 	
 	@Binding var selectedSticker: String
 	@Binding var stickerRotation: Angle
+//	@State var stickerBorderPhase = 10.0
 	
 	@State private var showingEmojiPicker = false
 	@State private var showingStickerSheet = false
@@ -20,9 +21,11 @@ struct StickerSelectionView: View {
 	@State private var emojiImage: UIImage?
 	@State private var tempRotation: Angle = .zero
 	
+	// MARK: - Body
     var body: some View {
 		Circle()
-			.stroke(style: StrokeStyle(lineWidth: 4, dash: [10]))
+			.stroke(style: StrokeStyle(lineWidth: 4,
+									   dash: [10]))
 			.frame(width: 50,
 				   height: 50)
 			.overlay {
@@ -36,6 +39,10 @@ struct StickerSelectionView: View {
 						renderStickerToImage(selectedSticker)
 					}
 				}
+				
+//				withAnimation(dashPhaseAnimation) {
+//					stickerBorderPhase = -10
+//				}
 			}
 			.onTapGesture {
 				showingStickerSheet = true
@@ -45,6 +52,7 @@ struct StickerSelectionView: View {
 			}
     }
 	
+	// MARK: - Helper views
 	private var sheetView: some View {
 		VStack {
 			if let image = emojiImage {
@@ -125,6 +133,13 @@ struct StickerSelectionView: View {
 				}
 				tempRotation = .zero
 			}
+	}
+	
+	// MARK: - Animations
+	private var dashPhaseAnimation: Animation {
+		.linear(duration: 1)
+		.speed(1)
+		.repeatForever(autoreverses: false)
 	}
 	
 	// MARK: - Functions

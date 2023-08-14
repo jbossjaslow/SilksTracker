@@ -10,6 +10,7 @@ import Foundation
 struct GroupedMoves {
 	private init() {}
 	
+	// MARK: - Move groups
 	static let grouped = [
 		group0,
 		group1,
@@ -41,6 +42,14 @@ struct GroupedMoves {
 		crossbackStraddleVariations
 	]
 	
+	static let flows = [
+		basics,
+		ballFlow,
+		hipKeys,
+		straddles
+	]
+	
+	// MARK: - Individual move groups
 	static let group0 = MoveGroup(id: 0,
 								  moves: [
 									MoveNames.StraightArmHang,
@@ -258,4 +267,40 @@ struct GroupedMoves {
 														MoveNames.crossbackStraddleVariations_splitsRollUpToXEntry,
 														MoveNames.crossbackStraddleVariations_transitionToSideMiddleSplitsV3
 													   ])
+	
+	// MARK: - Convenience move groups
+	static let basics = MoveGroup(id: 100,
+								  sectionTitle: "Basics",
+								  moves: [
+									MoveNames.StraightArmHang,
+									MoveNames.ShoulderLockOff,
+									MoveNames.BasicStand,
+									MoveNames.BasicClimb,
+									MoveNames.BasicFootLock
+								  ])
+	
+	static let ballFlow = MoveGroup(id: 101,
+									sectionTitle: "Ball Flow",
+									moves: [
+										MoveNames.Ball,
+										MoveNames.BallToPencil,
+										MoveNames.BallToPencilToPike,
+										MoveNames.BallInversionAir
+									])
+	
+	static let hipKeys = MoveGroup(id: 102,
+								   sectionTitle: "Hip Keys",
+								   moves: [
+									MoveNames.ManualHipKey,
+									MoveNames.BentLegHipKeyGround,
+									MoveNames.HipKeyAir,
+								   ])
+	
+	static let straddles = MoveGroup(id: 103,
+									 sectionTitle: "Straddles",
+									 moves: [
+										MoveNames.StraddleUpKnot,
+										MoveNames.StraddleUpGround,
+										MoveNames.StraddleUpAir,
+									 ])
 }

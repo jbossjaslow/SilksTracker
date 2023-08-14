@@ -99,37 +99,6 @@ struct WorkoutDetailView: View {
 	
 	// MARK: - Helper views
 	@ViewBuilder
-	private var viewsOnlyForEditing: some View {
-		HStack {
-			if canModifyMoves {
-				VStack {
-					DatePicker("Date",
-							   selection: $date,
-							   displayedComponents: [.date, .hourAndMinute])
-					.padding(.horizontal)
-					
-					Button {
-						showingBatchInput = true
-					} label: {
-						Text("Batch Move Input")
-							.foregroundStyle(Color.white)
-							.frame(maxWidth: .infinity)
-							.background(Color.blue)
-							.clipShape(RoundedRectangle(cornerRadius: 8))
-							.padding(.horizontal)
-					}
-				}
-			}
-			
-			Spacer()
-			
-			StickerSelectionView(selectedSticker: $selectedSticker,
-								 stickerRotation: $stickerRotation)
-			.disabled(!canModifyMoves)
-		}
-	}
-	
-	@ViewBuilder
 	private var addViewContent: some View {
 		moveListView
 		
@@ -245,9 +214,6 @@ struct WorkoutDetailView: View {
 	}
 	
 	private func saveExistingWorkout() {
-//		let moves = selectedMoves.map {
-//			Move(moveName: $0)
-//		}
 		existingWorkout?.updateMoves(Array(selectedMoves))
 		existingWorkout?.date = date
 		existingWorkout?.sticker = selectedSticker
