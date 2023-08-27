@@ -160,12 +160,12 @@
 		396A2B2E2A566C8D0087B9CC /* Workouts */ = {
 			isa = PBXGroup;
 			children = (
-				397BF6A42A48F11300F80E0F /* WorkoutListView.swift */,
-				39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */,
-				3970D5472A89A62500971048 /* WorkoutDetailView+EditOnlyViews.swift */,
 				39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */,
 				394631112A9BE374005FF488 /* BatchWorkoutInputView.swift */,
 				394631132A9BF2A0005FF488 /* PrintAllDataView.swift */,
+				39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */,
+				3970D5472A89A62500971048 /* WorkoutDetailView+EditOnlyViews.swift */,
+				397BF6A42A48F11300F80E0F /* WorkoutListView.swift */,
 			);
 			path = Workouts;
 			sourceTree = "<group>";

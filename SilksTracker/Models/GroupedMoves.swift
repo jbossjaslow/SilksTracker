@@ -46,7 +46,8 @@ struct GroupedMoves {
 		basics,
 		ballFlow,
 		hipKeys,
-		straddles
+		straddles,
+		verticalHangFlow
 	]
 	
 	// MARK: - Individual move groups
@@ -303,4 +304,15 @@ struct GroupedMoves {
 										MoveNames.StraddleUpGround,
 										MoveNames.StraddleUpAir,
 									 ])
+	
+	static let verticalHangFlow = MoveGroup(id: 104,
+											sectionTitle: "Vertical Hang Flow",
+											moves: [
+												MoveNames.SupportedBridge,
+												MoveNames.SupportedBridgeNoHands,
+												MoveNames.FlamingoArabesque,
+												MoveNames.StarFish,
+												MoveNames.KneeHang,
+												MoveNames.VerticalHang
+											])
 }
