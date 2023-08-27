@@ -9,7 +9,6 @@ import SwiftData
 import SwiftUI
 
 struct FundamenatalsListView: View {
-	@Environment(AppSettings.self) var settings
 	@Query var moves: [Move]
 	
 	var body: some View {

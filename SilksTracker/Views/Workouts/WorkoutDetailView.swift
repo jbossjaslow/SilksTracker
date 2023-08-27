@@ -167,11 +167,7 @@ struct WorkoutDetailView: View {
 			saveWorkout()
 		} label: {
 			Text(saveButtonText)
-				.foregroundStyle(Color.white)
-				.padding()
-				.frame(maxWidth: .infinity)
-				.background(Color.blue)
-				.clipShape(RoundedRectangle(cornerRadius: 8))
+				.standardButtonStyle
 		}
 		.padding(.horizontal)
 	}

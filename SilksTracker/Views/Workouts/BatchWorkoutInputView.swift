@@ -20,11 +20,7 @@ struct BatchWorkoutInputView: View {
 		Button("Add batch workouts") {
 			sheetPresented = true
 		}
-		.foregroundStyle(Color.white)
-		.padding()
-		.frame(maxWidth: .infinity)
-		.background(Color.blue)
-		.clipShape(RoundedRectangle(cornerRadius: 8))
+		.standardButtonStyle
 		.sheet(isPresented: $sheetPresented) {
 			sheetView
 		}
@@ -43,22 +39,14 @@ struct BatchWorkoutInputView: View {
 						print("Nothing on pasteboard")
 					}
 				}
-				.foregroundStyle(Color.white)
-				.padding()
-				.frame(maxWidth: .infinity)
-				.background(Color.blue)
-				.clipShape(RoundedRectangle(cornerRadius: 8))
+				.standardButtonStyle
 				
 				Button("Save") {
 					addBatchWorkouts()
 					print("Finished adding batch workouts!")
 					sheetPresented = false
 				}
-				.foregroundStyle(Color.white)
-				.padding()
-				.frame(maxWidth: .infinity)
-				.background(Color.blue)
-				.clipShape(RoundedRectangle(cornerRadius: 8))
+				.standardButtonStyle
 			}
 		}
 		.padding()

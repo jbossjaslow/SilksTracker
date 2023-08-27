@@ -14,10 +14,21 @@
 		39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */; };
 		3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841A2A50C4A500AC7335 /* SettingsView.swift */; };
 		3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841D2A50C53D00AC7335 /* AppSettings.swift */; };
-		394184202A50C5F600AC7335 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841F2A50C5F600AC7335 /* OrderType.swift */; };
+		394184202A50C5F600AC7335 /* MoveListOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841F2A50C5F600AC7335 /* MoveListOrderType.swift */; };
 		394631102A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */; };
 		394631122A9BE374005FF488 /* BatchWorkoutInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631112A9BE374005FF488 /* BatchWorkoutInputView.swift */; };
 		394631142A9BF2A0005FF488 /* PrintAllDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631132A9BF2A0005FF488 /* PrintAllDataView.swift */; };
+		3946311A2A9BFBE9005FF488 /* SilksTrackerSchemaV1+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631192A9BFBE9005FF488 /* SilksTrackerSchemaV1+Move.swift */; };
+		3946311C2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946311B2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift */; };
+		3946311F2A9BFE39005FF488 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946311E2A9BFE39005FF488 /* Goal.swift */; };
+		394631212A9BFE5E005FF488 /* SilksTrackerSchemaV2+Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631202A9BFE5E005FF488 /* SilksTrackerSchemaV2+Goal.swift */; };
+		394631242A9BFF27005FF488 /* SilksTrackerSchemaV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631232A9BFF27005FF488 /* SilksTrackerSchemaV2.swift */; };
+		394631262A9BFF95005FF488 /* SilksTrackerSchemaV2+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631252A9BFF95005FF488 /* SilksTrackerSchemaV2+Move.swift */; };
+		394631282A9BFFEE005FF488 /* SilksTrackerSchemaV2+Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631272A9BFFEE005FF488 /* SilksTrackerSchemaV2+Workout.swift */; };
+		3946312B2A9C0189005FF488 /* GoalsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946312A2A9C0189005FF488 /* GoalsListView.swift */; };
+		3946312D2A9C02BE005FF488 /* GoalListOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946312C2A9C02BE005FF488 /* GoalListOrderType.swift */; };
+		3946312F2A9C04A2005FF488 /* GoalsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946312E2A9C04A2005FF488 /* GoalsTabView.swift */; };
+		394631322A9C05E0005FF488 /* StandardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631312A9C05E0005FF488 /* StandardButtonStyle.swift */; };
 		396A2B302A566CC20087B9CC /* MoveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */; };
 		396A2B332A566E2F0087B9CC /* WorkoutDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */; };
 		396A2B352A566EC20087B9CC /* MoveDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */; };
@@ -69,10 +80,21 @@
 		39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionView.swift; sourceTree = "<group>"; };
 		3941841A2A50C4A500AC7335 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3941841D2A50C53D00AC7335 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
-		3941841F2A50C5F600AC7335 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		3941841F2A50C5F600AC7335 /* MoveListOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveListOrderType.swift; sourceTree = "<group>"; };
 		3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerSchemaV1.swift; sourceTree = "<group>"; };
 		394631112A9BE374005FF488 /* BatchWorkoutInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchWorkoutInputView.swift; sourceTree = "<group>"; };
 		394631132A9BF2A0005FF488 /* PrintAllDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintAllDataView.swift; sourceTree = "<group>"; };
+		394631192A9BFBE9005FF488 /* SilksTrackerSchemaV1+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SilksTrackerSchemaV1+Move.swift"; sourceTree = "<group>"; };
+		3946311B2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SilksTrackerSchemaV1+Workout.swift"; sourceTree = "<group>"; };
+		3946311E2A9BFE39005FF488 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		394631202A9BFE5E005FF488 /* SilksTrackerSchemaV2+Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SilksTrackerSchemaV2+Goal.swift"; sourceTree = "<group>"; };
+		394631232A9BFF27005FF488 /* SilksTrackerSchemaV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerSchemaV2.swift; sourceTree = "<group>"; };
+		394631252A9BFF95005FF488 /* SilksTrackerSchemaV2+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SilksTrackerSchemaV2+Move.swift"; sourceTree = "<group>"; };
+		394631272A9BFFEE005FF488 /* SilksTrackerSchemaV2+Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SilksTrackerSchemaV2+Workout.swift"; sourceTree = "<group>"; };
+		3946312A2A9C0189005FF488 /* GoalsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListView.swift; sourceTree = "<group>"; };
+		3946312C2A9C02BE005FF488 /* GoalListOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalListOrderType.swift; sourceTree = "<group>"; };
+		3946312E2A9C04A2005FF488 /* GoalsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsTabView.swift; sourceTree = "<group>"; };
+		394631312A9C05E0005FF488 /* StandardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButtonStyle.swift; sourceTree = "<group>"; };
 		396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailView.swift; sourceTree = "<group>"; };
 		396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailRowView.swift; sourceTree = "<group>"; };
 		396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailRowView.swift; sourceTree = "<group>"; };
@@ -142,9 +164,57 @@
 			isa = PBXGroup;
 			children = (
 				3941841D2A50C53D00AC7335 /* AppSettings.swift */,
-				3941841F2A50C5F600AC7335 /* OrderType.swift */,
+				3941841F2A50C5F600AC7335 /* MoveListOrderType.swift */,
+				3946312C2A9C02BE005FF488 /* GoalListOrderType.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		394631172A9BFBCB005FF488 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				394631182A9BFBD7005FF488 /* V1 */,
+				394631222A9BFEC7005FF488 /* V2 */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		394631182A9BFBD7005FF488 /* V1 */ = {
+			isa = PBXGroup;
+			children = (
+				3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */,
+				394631192A9BFBE9005FF488 /* SilksTrackerSchemaV1+Move.swift */,
+				3946311B2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift */,
+			);
+			path = V1;
+			sourceTree = "<group>";
+		};
+		394631222A9BFEC7005FF488 /* V2 */ = {
+			isa = PBXGroup;
+			children = (
+				394631232A9BFF27005FF488 /* SilksTrackerSchemaV2.swift */,
+				394631202A9BFE5E005FF488 /* SilksTrackerSchemaV2+Goal.swift */,
+				394631252A9BFF95005FF488 /* SilksTrackerSchemaV2+Move.swift */,
+				394631272A9BFFEE005FF488 /* SilksTrackerSchemaV2+Workout.swift */,
+			);
+			path = V2;
+			sourceTree = "<group>";
+		};
+		394631292A9C017F005FF488 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				3946312A2A9C0189005FF488 /* GoalsListView.swift */,
+				3946312E2A9C04A2005FF488 /* GoalsTabView.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		394631302A9C05D0005FF488 /* ViewStyles */ = {
+			isa = PBXGroup;
+			children = (
+				394631312A9C05E0005FF488 /* StandardButtonStyle.swift */,
+			);
+			path = ViewStyles;
 			sourceTree = "<group>";
 		};
 		396A2B2D2A566C7F0087B9CC /* Move List */ = {
@@ -213,6 +283,7 @@
 		39ADA18F2A3BCEDD00811244 /* SilksTracker */ = {
 			isa = PBXGroup;
 			children = (
+				394631302A9C05D0005FF488 /* ViewStyles */,
 				39092C162A5B2DC60080BB66 /* App */,
 				39ADA1942A3BCEDE00811244 /* Assets.xcassets */,
 				39B0FE332A59206C0028E9EB /* Enums */,
@@ -253,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				396A2B312A566DFF0087B9CC /* Components */,
+				394631292A9C017F005FF488 /* Goals */,
 				396A2B2D2A566C7F0087B9CC /* Move List */,
 				3941841A2A50C4A500AC7335 /* SettingsView.swift */,
 				397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */,
@@ -264,6 +336,7 @@
 		39ADA1BF2A3BD11700811244 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				394631172A9BFBCB005FF488 /* Schema */,
 				3941841C2A50C53100AC7335 /* Settings */,
 				397BF6B02A48F5AC00F80E0F /* Preview */,
 				39ADA1C02A3BD12800811244 /* Move.swift */,
@@ -271,7 +344,7 @@
 				397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */,
 				397BF6A82A48F15100F80E0F /* MoveGroup.swift */,
 				397BF6A62A48F12A00F80E0F /* Workout.swift */,
-				3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */,
+				3946311E2A9BFE39005FF488 /* Goal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -474,34 +547,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394631322A9C05E0005FF488 /* StandardButtonStyle.swift in Sources */,
 				396A2B332A566E2F0087B9CC /* WorkoutDetailRowView.swift in Sources */,
 				39B0FE322A591A470028E9EB /* WorkoutDetailView.swift in Sources */,
 				39B0FE352A59209F0028E9EB /* WorkoutDetailViewMode.swift in Sources */,
 				39F426402A638644007C7ADF /* MoveNames+Generated.swift in Sources */,
 				394631142A9BF2A0005FF488 /* PrintAllDataView.swift in Sources */,
-				394184202A50C5F600AC7335 /* OrderType.swift in Sources */,
+				3946311F2A9BFE39005FF488 /* Goal.swift in Sources */,
+				394184202A50C5F600AC7335 /* MoveListOrderType.swift in Sources */,
+				3946312B2A9C0189005FF488 /* GoalsListView.swift in Sources */,
 				39B0FE2E2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift in Sources */,
+				3946312F2A9C04A2005FF488 /* GoalsTabView.swift in Sources */,
 				39092C182A5B2DD50080BB66 /* UserDefaultsKey.swift in Sources */,
+				394631282A9BFFEE005FF488 /* SilksTrackerSchemaV2+Workout.swift in Sources */,
 				397BF6A32A48E9CE00F80E0F /* SilksTabView.swift in Sources */,
 				39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */,
 				397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */,
 				397BF6AB2A48F17700F80E0F /* GroupedMoves.swift in Sources */,
 				39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */,
+				3946312D2A9C02BE005FF488 /* GoalListOrderType.swift in Sources */,
 				396A2B302A566CC20087B9CC /* MoveDetailView.swift in Sources */,
 				3970D5482A89A62500971048 /* WorkoutDetailView+EditOnlyViews.swift in Sources */,
 				397BF6A72A48F12A00F80E0F /* Workout.swift in Sources */,
 				396A2B352A566EC20087B9CC /* MoveDetailRowView.swift in Sources */,
+				394631212A9BFE5E005FF488 /* SilksTrackerSchemaV2+Goal.swift in Sources */,
+				394631262A9BFF95005FF488 /* SilksTrackerSchemaV2+Move.swift in Sources */,
 				3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */,
 				39ADA1912A3BCEDD00811244 /* SilksTrackerApp.swift in Sources */,
+				3946311A2A9BFBE9005FF488 /* SilksTrackerSchemaV1+Move.swift in Sources */,
 				39ADA1C12A3BD12800811244 /* Move.swift in Sources */,
 				397BF6A52A48F11300F80E0F /* WorkoutListView.swift in Sources */,
 				397BF6A92A48F15100F80E0F /* MoveGroup.swift in Sources */,
 				397BF6B42A48F61000F80E0F /* MoveName.swift in Sources */,
 				39ADA1BD2A3BD0BB00811244 /* FundamenatalsListView.swift in Sources */,
+				394631242A9BFF27005FF488 /* SilksTrackerSchemaV2.swift in Sources */,
 				394631102A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift in Sources */,
 				3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */,
 				39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */,
 				394631122A9BE374005FF488 /* BatchWorkoutInputView.swift in Sources */,
+				3946311C2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ struct ExerciseOrderToolbarContent: ToolbarContent {
 		ToolbarItem(placement: .topBarTrailing) {
 			Picker("",
 				   selection: $settings.moveListOrdering) {
-				ForEach(OrderType.allCases, id: \.rawValue) { orderType in
+				ForEach(MoveListOrderType.allCases, id: \.rawValue) { orderType in
 					Text(orderType.rawValue)
 						.tag(orderType)
 				}

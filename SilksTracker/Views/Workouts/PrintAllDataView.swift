@@ -20,11 +20,7 @@ struct PrintAllDataView: View {
 			print(printedWorkoutsText)
 			showPrintDataSheet = true
 		}
-		.foregroundStyle(Color.white)
-		.padding()
-		.frame(maxWidth: .infinity)
-		.background(Color.blue)
-		.clipShape(RoundedRectangle(cornerRadius: 8))
+		.standardButtonStyle
 		.sheet(isPresented: $showPrintDataSheet) {
 			sheetView
 		}
@@ -40,11 +36,7 @@ struct PrintAllDataView: View {
 				print("Copy successful")
 				showPrintDataSheet = false
 			}
-			.foregroundStyle(Color.white)
-			.padding()
-			.frame(maxWidth: .infinity)
-			.background(Color.blue)
-			.clipShape(RoundedRectangle(cornerRadius: 8))
+			.standardButtonStyle
 		}
 		.padding()
 	}
