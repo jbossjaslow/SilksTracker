@@ -15,6 +15,9 @@
 		3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841A2A50C4A500AC7335 /* SettingsView.swift */; };
 		3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841D2A50C53D00AC7335 /* AppSettings.swift */; };
 		394184202A50C5F600AC7335 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841F2A50C5F600AC7335 /* OrderType.swift */; };
+		394631102A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */; };
+		394631122A9BE374005FF488 /* BatchWorkoutInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631112A9BE374005FF488 /* BatchWorkoutInputView.swift */; };
+		394631142A9BF2A0005FF488 /* PrintAllDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394631132A9BF2A0005FF488 /* PrintAllDataView.swift */; };
 		396A2B302A566CC20087B9CC /* MoveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */; };
 		396A2B332A566E2F0087B9CC /* WorkoutDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */; };
 		396A2B352A566EC20087B9CC /* MoveDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */; };
@@ -67,6 +70,9 @@
 		3941841A2A50C4A500AC7335 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3941841D2A50C53D00AC7335 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		3941841F2A50C5F600AC7335 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerSchemaV1.swift; sourceTree = "<group>"; };
+		394631112A9BE374005FF488 /* BatchWorkoutInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchWorkoutInputView.swift; sourceTree = "<group>"; };
+		394631132A9BF2A0005FF488 /* PrintAllDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintAllDataView.swift; sourceTree = "<group>"; };
 		396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailView.swift; sourceTree = "<group>"; };
 		396A2B322A566E2F0087B9CC /* WorkoutDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailRowView.swift; sourceTree = "<group>"; };
 		396A2B342A566EC20087B9CC /* MoveDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDetailRowView.swift; sourceTree = "<group>"; };
@@ -158,6 +164,8 @@
 				39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */,
 				3970D5472A89A62500971048 /* WorkoutDetailView+EditOnlyViews.swift */,
 				39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */,
+				394631112A9BE374005FF488 /* BatchWorkoutInputView.swift */,
+				394631132A9BF2A0005FF488 /* PrintAllDataView.swift */,
 			);
 			path = Workouts;
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 				397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */,
 				397BF6A82A48F15100F80E0F /* MoveGroup.swift */,
 				397BF6A62A48F12A00F80E0F /* Workout.swift */,
+				3946310F2A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -469,6 +478,7 @@
 				39B0FE322A591A470028E9EB /* WorkoutDetailView.swift in Sources */,
 				39B0FE352A59209F0028E9EB /* WorkoutDetailViewMode.swift in Sources */,
 				39F426402A638644007C7ADF /* MoveNames+Generated.swift in Sources */,
+				394631142A9BF2A0005FF488 /* PrintAllDataView.swift in Sources */,
 				394184202A50C5F600AC7335 /* OrderType.swift in Sources */,
 				39B0FE2E2A5911C30028E9EB /* ExerciseOrderToolbarContent.swift in Sources */,
 				39092C182A5B2DD50080BB66 /* UserDefaultsKey.swift in Sources */,
@@ -488,8 +498,10 @@
 				397BF6A92A48F15100F80E0F /* MoveGroup.swift in Sources */,
 				397BF6B42A48F61000F80E0F /* MoveName.swift in Sources */,
 				39ADA1BD2A3BD0BB00811244 /* FundamenatalsListView.swift in Sources */,
+				394631102A9BE0EF005FF488 /* SilksTrackerSchemaV1.swift in Sources */,
 				3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */,
 				39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */,
+				394631122A9BE374005FF488 /* BatchWorkoutInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

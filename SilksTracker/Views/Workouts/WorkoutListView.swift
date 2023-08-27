@@ -10,10 +10,7 @@ import SwiftUI
 
 struct WorkoutListView: View {
 	@Environment(\.modelContext) private var modelContext
-	@Query(sort: \Workout.date, order: .forward)
-	var workouts: [Workout]
-	
-	@State var printedWorkoutsText = ""
+	@Query(sort: \Workout.date, order: .forward) var workouts: [Workout]
 	
     var body: some View {
 		NavigationStack {
@@ -43,47 +40,16 @@ struct WorkoutListView: View {
 				}
 				.padding(.horizontal)
 				
-				printDataButton
+				HStack(spacing: 4) {
+					PrintAllDataView()
+					
+					BatchWorkoutInputView()
+				}
+				.padding(.horizontal)
 				
 				Divider()
 			}
 			.navigationTitle("Workouts")
 		}
     }
-	
-	@State private var showPrintDataSheet = false
-	
-	private var printDataButton: some View {
-		Button("Print all data") {
-			generateWorkoutsText()
-			print(printedWorkoutsText)
-			showPrintDataSheet = true
-		}
-		.foregroundStyle(Color.white)
-		.padding()
-		.frame(maxWidth: .infinity)
-		.background(Color.blue)
-		.clipShape(RoundedRectangle(cornerRadius: 8))
-		.padding(.horizontal)
-		.sheet(isPresented: $showPrintDataSheet) {
-			TextEditor(text: $printedWorkoutsText)
-		}
-	}
-	
-	private func generateWorkoutsText() {
-		printedWorkoutsText = ""
-		
-		for workout in workouts {
-			printedWorkoutsText += "\n-- \(workout.date.formatted(date: .complete, time: .shortened))"
-			for move in workout.moves.sorted() {
-				printedWorkoutsText += "\n\(move.name)"
-			}
-			printedWorkoutsText += "\n"
-		}
-	}
 }
-
-//#Preview {
-//    WorkoutListView()
-//		.modelContainer(previewContainer)
-//}
