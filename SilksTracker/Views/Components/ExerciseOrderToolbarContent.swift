@@ -22,10 +22,6 @@ struct ExerciseOrderToolbarContent: ToolbarContent {
 				}
 			}
 				   .pickerStyle(.menu)
-				   .onChange(of: settings.moveListOrdering) { oldValue, newValue in
-					   UserDefaults.standard.set(newValue.rawValue,
-												 forKey: UserDefaultsKey.moveListOrdering.rawValue)
-				   }
 		}
 	}
 }

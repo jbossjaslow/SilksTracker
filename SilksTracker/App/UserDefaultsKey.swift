@@ -9,6 +9,7 @@ import Foundation
 
 enum UserDefaultsKey: String {
 	case moveListOrdering = "moveListOrdering"
+	case goalListOrdering = "goalListOrdering"
 	case showTimeWithDateInNewWorkout = "showTimeWithDateInNewWorkout"
 	case showTimeWithDateInWorkoutList = "showTimeWithDateInWorkoutList"
 }
