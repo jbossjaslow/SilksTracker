@@ -12,20 +12,55 @@ extension SilksTrackerSchemaV2 {
 	@Model
 	final class Goal {
 		@Attribute(.unique) let id: UUID
-		var text: String
-		var hasBeenAchieved: Bool
+		var title: String
+		var subtitle: String
 		var dateCreated: Date
+		var dateAchieved: Date?
 		
-		@Relationship var workouts: [Workout] = []
+		@Relationship(deleteRule: .nullify, inverse: \Move.goals)
+		var associatedMoves: [Move]
+		
+		@Relationship var associatedWorkout: Workout?
+		
+		var hasBeenAchieved: Bool {
+			dateAchieved != nil
+		}
+		var linkedToWorkout: Bool {
+			associatedWorkout != nil
+		}
 		
 		init(id: UUID = UUID(),
-			 text: String,
-			 hasBeenAchieved: Bool = false,
-			 dateCreated: Date = Date()) {
+			 title: String,
+			 subtitle: String = "",
+			 dateCreated: Date = Date(),
+			 dateAchieved: Date? = nil,
+			 associatedMoves: [Move] = [],
+			 associatedWorkout: Workout? = nil) {
 			self.id = id
-			self.text = text
-			self.hasBeenAchieved = hasBeenAchieved
+			self.title = title
+			self.subtitle = subtitle
 			self.dateCreated = dateCreated
+			self.dateAchieved = dateAchieved
+			self.associatedMoves = associatedMoves
+			self.associatedWorkout = associatedWorkout
+		}
+		
+		// MARK: - Helper functions
+		func addMoves(_ newMoves: [Move]) {
+			associatedMoves.append(contentsOf: newMoves)
+		}
+		
+		func updateMoves(_ newMoves: [Move]) {
+			associatedMoves = newMoves
+		}
+		
+		func updateWorkout(_ newWorkout: Workout?) {
+			associatedWorkout = newWorkout
+		}
+		
+		// MARK: - Fetch descriptors
+		static func fromId(_ id: UUID) -> FetchDescriptor<Goal> {
+			FetchDescriptor(predicate: #Predicate { $0.id == id })
 		}
 	}
 }

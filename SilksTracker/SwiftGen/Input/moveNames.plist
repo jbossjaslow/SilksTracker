@@ -660,5 +660,26 @@
 		<key>groupId</key>
 		<integer>27</integer>
 	</dict>
+	<key>LotusClimb</key>
+	<dict>
+		<key>displayName</key>
+		<string>Lotus Climb</string>
+		<key>groupId</key>
+		<integer>28</integer>
+	</dict>
+	<key>LotusHang</key>
+	<dict>
+		<key>displayName</key>
+		<string>Lotus Hang</string>
+		<key>groupId</key>
+		<integer>28</integer>
+	</dict>
+	<key>MusicBox</key>
+	<dict>
+		<key>displayName</key>
+		<string>Music Box</string>
+		<key>groupId</key>
+		<integer>28</integer>
+	</dict>
 </dict>
 </plist>

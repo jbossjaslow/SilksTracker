@@ -19,7 +19,7 @@ extension SilksTrackerSchemaV2 {
 		@Relationship(deleteRule: .nullify, inverse: \Move.workouts)
 		private(set) var moves: [Move]
 		
-		@Relationship(deleteRule: .nullify, inverse: \Goal.workouts)
+		@Relationship(deleteRule: .nullify, inverse: \Goal.associatedWorkout)
 		private(set) var goals: [Goal]
 		
 		init(date: Date,

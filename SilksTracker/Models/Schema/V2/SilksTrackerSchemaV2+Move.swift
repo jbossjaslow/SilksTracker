@@ -13,6 +13,7 @@ extension SilksTrackerSchemaV2 {
 		@Attribute(.unique) let id: String
 		let name: String
 		@Relationship var workouts: [Workout] = []
+		@Relationship var goals: [Goal] = []
 		
 		init(id: String,
 			 name: String) {

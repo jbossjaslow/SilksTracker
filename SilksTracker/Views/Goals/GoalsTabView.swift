@@ -6,17 +6,34 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct GoalsTabView: View {
+	@Environment(\.modelContext) private var modelContext
+	@Query(sort: \Goal.dateCreated, order: .forward) var goals: [Goal]
+	
 	var body: some View {
 		NavigationStack {
 			VStack {
-				GoalsListView { goal in
-					Text(goal.text)
+				List {
+					ForEach(goals) { goal in
+						NavigationLink {
+							GoalDetailView(goalId: goal.id,
+										   goalDetailViewMode: .editingExistingGoal)
+						} label: {
+							Text(goal.title)
+						}
+					}
+					.onDelete { indexSet in
+						indexSet.forEach { index in
+							modelContext.delete(goals[index])
+						}
+						try? modelContext.save()
+					}
 				}
 				
 				NavigationLink {
-					Text("Add goal here")
+					GoalDetailView(goalDetailViewMode: .addingNewGoal)
 				} label: {
 					Text("Add Goal")
 						.standardButtonStyle

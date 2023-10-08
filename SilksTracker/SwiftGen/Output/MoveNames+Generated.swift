@@ -123,6 +123,14 @@ struct MoveNames {
         codeSafeName: "LegRollUpSplits",
         displayName: "Leg Roll Up from Splits"
     )
+    static let LotusClimb = MoveName(
+        codeSafeName: "LotusClimb",
+        displayName: "Lotus Climb"
+    )
+    static let LotusHang = MoveName(
+        codeSafeName: "LotusHang",
+        displayName: "Lotus Hang"
+    )
     static let LotusHangBasicFootLock = MoveName(
         codeSafeName: "LotusHangBasicFootLock",
         displayName: "Lotus Hang - basic foot lock"
@@ -138,6 +146,10 @@ struct MoveNames {
     static let ManualHipKey = MoveName(
         codeSafeName: "ManualHipKey",
         displayName: "Manual Hip Key"
+    )
+    static let MusicBox = MoveName(
+        codeSafeName: "MusicBox",
+        displayName: "Music Box"
     )
     static let Pencil = MoveName(
         codeSafeName: "Pencil",
@@ -417,10 +429,13 @@ struct MoveNames {
         LegRollUp2Rolls, 
         LegRollUp3Rolls, 
         LegRollUpSplits, 
+        LotusClimb, 
+        LotusHang, 
         LotusHangBasicFootLock, 
         LotusHangSingleFootLock, 
         ManInTheMoonLegRollUp2Rolls, 
         ManualHipKey, 
+        MusicBox, 
         Pencil, 
         Pike, 
         RussianClimb, 
@@ -485,5 +500,5 @@ struct MoveNames {
         standingVariationsOnBasicFootlock_noHandsFrontSail
     ]
 
-    static var moveCount = 94
+    static var moveCount = 97
 }

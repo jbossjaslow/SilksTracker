@@ -8,7 +8,6 @@
 import SwiftUI
 
 extension WorkoutDetailView {
-	@ViewBuilder
 	var viewsOnlyForEditing: some View {
 		HStack {
 			if canModifyMoves {

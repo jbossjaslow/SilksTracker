@@ -52,6 +52,9 @@
 		39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE2F2A5917EB0028E9EB /* MoveListView.swift */; };
 		39B0FE322A591A470028E9EB /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */; };
 		39B0FE352A59209F0028E9EB /* WorkoutDetailViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0FE342A59209F0028E9EB /* WorkoutDetailViewMode.swift */; };
+		39C524EC2AA3A06100F646E8 /* GoalDetailViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C524EB2AA3A06100F646E8 /* GoalDetailViewMode.swift */; };
+		39C524EE2AA3BA1A00F646E8 /* GoalDetailView+ReadAndWriteViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C524ED2AA3BA1A00F646E8 /* GoalDetailView+ReadAndWriteViews.swift */; };
+		39E4A2922AA39F140007F353 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E4A2912AA39F140007F353 /* GoalDetailView.swift */; };
 		39F4263E2A637EE3007C7ADF /* moveNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F4263D2A637EE3007C7ADF /* moveNames.plist */; };
 		39F426402A638644007C7ADF /* MoveNames+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F4263F2A638644007C7ADF /* MoveNames+Generated.swift */; };
 /* End PBXBuildFile section */
@@ -121,6 +124,9 @@
 		39B0FE2F2A5917EB0028E9EB /* MoveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveListView.swift; sourceTree = "<group>"; };
 		39B0FE312A591A470028E9EB /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 		39B0FE342A59209F0028E9EB /* WorkoutDetailViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewMode.swift; sourceTree = "<group>"; };
+		39C524EB2AA3A06100F646E8 /* GoalDetailViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailViewMode.swift; sourceTree = "<group>"; };
+		39C524ED2AA3BA1A00F646E8 /* GoalDetailView+ReadAndWriteViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoalDetailView+ReadAndWriteViews.swift"; sourceTree = "<group>"; };
+		39E4A2912AA39F140007F353 /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
 		39F4263D2A637EE3007C7ADF /* moveNames.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moveNames.plist; sourceTree = "<group>"; };
 		39F4263F2A638644007C7ADF /* MoveNames+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoveNames+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,8 +209,10 @@
 		394631292A9C017F005FF488 /* Goals */ = {
 			isa = PBXGroup;
 			children = (
+				39E4A2912AA39F140007F353 /* GoalDetailView.swift */,
 				3946312A2A9C0189005FF488 /* GoalsListView.swift */,
 				3946312E2A9C04A2005FF488 /* GoalsTabView.swift */,
+				39C524ED2AA3BA1A00F646E8 /* GoalDetailView+ReadAndWriteViews.swift */,
 			);
 			path = Goals;
 			sourceTree = "<group>";
@@ -353,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				39B0FE342A59209F0028E9EB /* WorkoutDetailViewMode.swift */,
+				39C524EB2AA3A06100F646E8 /* GoalDetailViewMode.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -563,6 +572,7 @@
 				397BF6A32A48E9CE00F80E0F /* SilksTabView.swift in Sources */,
 				39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */,
 				397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */,
+				39E4A2922AA39F140007F353 /* GoalDetailView.swift in Sources */,
 				397BF6AB2A48F17700F80E0F /* GroupedMoves.swift in Sources */,
 				39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */,
 				3946312D2A9C02BE005FF488 /* GoalListOrderType.swift in Sources */,
@@ -585,7 +595,9 @@
 				3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */,
 				39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */,
 				394631122A9BE374005FF488 /* BatchWorkoutInputView.swift in Sources */,
+				39C524EC2AA3A06100F646E8 /* GoalDetailViewMode.swift in Sources */,
 				3946311C2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift in Sources */,
+				39C524EE2AA3BA1A00F646E8 /* GoalDetailView+ReadAndWriteViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

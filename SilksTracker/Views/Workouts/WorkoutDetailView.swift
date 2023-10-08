@@ -196,7 +196,7 @@ struct WorkoutDetailView: View {
 				saveExistingWorkout()
 		}
 		
-//		try? modelContext.save()
+		try? modelContext.save()
 	}
 	
 	private func saveNewWorkout() {

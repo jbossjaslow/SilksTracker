@@ -28,6 +28,7 @@ struct GroupedMoves {
 		group13,
 		group14,
 		group15,
+		secretMoves,
 		standingHipLeanVariations,
 		sittingHipLeanVariations,
 		ballVariations,
@@ -49,6 +50,29 @@ struct GroupedMoves {
 		straddles,
 		verticalHangFlow
 	]
+	
+//	static func groupName(for id: Int) -> String {
+//		switch id {
+//			case 16: return "Standing Hip Lean Variations"
+//			case 17: return "Sitting Hip Lean Variations"
+//			case 18: return "Ball"
+//			case 19: return "Cocoon Variations"
+//			case 20: return "Standing Variations on Basic Footlock"
+//			case 21: return "Layback Invert Variations"
+//			case 22: return "Arabesque Back Balance"
+//			case 23: return "Basic Leg Roll Up Variations"
+//			case 24: return "Shoulder Sling from Supported Bridge"
+//			case 25: return "Round the Back Hold"
+//			case 26: return "Iron T"
+//			case 27: return "Crossback Straddle Variations"
+//			case 100: return "Basics"
+//			case 101: return "Ball Flow"
+//			case 102: return "Hip Keys"
+//			case 103: return "Straddles"
+//			case 104: return "Vertical Hang Flow"
+//			default: return ""
+//		}
+//	}
 	
 	// MARK: - Individual move groups
 	static let group0 = MoveGroup(id: 0,
@@ -269,6 +293,14 @@ struct GroupedMoves {
 														MoveNames.crossbackStraddleVariations_transitionToSideMiddleSplitsV3
 													   ])
 	
+	static let secretMoves = MoveGroup(id: 28,
+									   sectionTitle: "Secret Moves",
+									   moves: [
+										MoveNames.LotusClimb,
+										MoveNames.LotusHang,
+										MoveNames.MusicBox
+									   ])
+	
 	// MARK: - Convenience move groups
 	static let basics = MoveGroup(id: 100,
 								  sectionTitle: "Basics",
@@ -284,6 +316,8 @@ struct GroupedMoves {
 									sectionTitle: "Ball Flow",
 									moves: [
 										MoveNames.Ball,
+										MoveNames.Pencil,
+										MoveNames.Pike,
 										MoveNames.BallToPencil,
 										MoveNames.BallToPencilToPike,
 										MoveNames.BallInversionAir
@@ -313,6 +347,7 @@ struct GroupedMoves {
 												MoveNames.FlamingoArabesque,
 												MoveNames.StarFish,
 												MoveNames.KneeHang,
-												MoveNames.VerticalHang
+												MoveNames.VerticalHang,
+												MoveNames.HalfScorpion
 											])
 }
