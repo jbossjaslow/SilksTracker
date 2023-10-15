@@ -298,7 +298,8 @@ struct GroupedMoves {
 									   moves: [
 										MoveNames.LotusClimb,
 										MoveNames.LotusHang,
-										MoveNames.MusicBox
+										MoveNames.MusicBox,
+										MoveNames.AngelDescent
 									   ])
 	
 	// MARK: - Convenience move groups

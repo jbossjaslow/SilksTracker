@@ -11,6 +11,10 @@ import Foundation
 
 struct MoveNames {
     private init() {}
+    static let AngelDescent = MoveName(
+        codeSafeName: "AngelDescent",
+        displayName: "Angel Descent"
+    )
     static let Arabesque = MoveName(
         codeSafeName: "Arabesque",
         displayName: "Arabesque"
@@ -401,6 +405,7 @@ struct MoveNames {
     )
 
     static var allMoves = [
+        AngelDescent, 
         Arabesque, 
         Arrow, 
         Ball, 
@@ -500,5 +505,5 @@ struct MoveNames {
         standingVariationsOnBasicFootlock_noHandsFrontSail
     ]
 
-    static var moveCount = 97
+    static var moveCount = 98
 }

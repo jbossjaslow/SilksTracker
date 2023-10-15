@@ -681,5 +681,12 @@
 		<key>groupId</key>
 		<integer>28</integer>
 	</dict>
+	<key>AngelDescent</key>
+	<dict>
+		<key>displayName</key>
+		<string>Angel Descent</string>
+		<key>groupId</key>
+		<integer>28</integer>
+	</dict>
 </dict>
 </plist>
