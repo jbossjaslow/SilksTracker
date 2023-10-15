@@ -17,7 +17,7 @@ struct WorkoutListView: View {
 			VStack {
 				List {
 					ForEach(workouts) { workout in
-						WorkoutDetailRowView(workout: workout)
+						navlinkView(workout: workout)
 					}
 					.onDelete { indexSet in
 						indexSet.forEach { index in
@@ -46,6 +46,23 @@ struct WorkoutListView: View {
 				Divider()
 			}
 			.navigationTitle("Workouts")
+			.navigationDestination(for: Workout.self) { workout in
+				WorkoutDetailView(workoutId: workout.id,
+								  workoutDetailViewMode: .editingExistingWorkout)
+			}
 		}
     }
+	
+	private func navlinkView(workout: Workout) -> some View {
+		NavigationLink(value: workout) {
+			HStack {
+				Text(workout.date.formatted(.dateTime))
+				
+				Spacer()
+				
+				Text(workout.sticker)
+					.rotationEffect(Angle(degrees: workout.stickerRotation))
+			}
+		}
+	}
 }

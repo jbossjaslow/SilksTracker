@@ -28,7 +28,7 @@ extension SilksTrackerSchemaV2 {
 	}
 }
 
-extension SilksTrackerSchemaV2.Move: Comparable, Equatable {
+extension SilksTrackerSchemaV2.Move: Comparable, Equatable, Hashable {
 	static func < (lhs: SilksTrackerSchemaV2.Move,
 				   rhs: SilksTrackerSchemaV2.Move) -> Bool {
 		lhs.name < rhs.name

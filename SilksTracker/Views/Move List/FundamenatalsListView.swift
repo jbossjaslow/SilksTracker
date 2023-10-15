@@ -22,13 +22,25 @@ struct FundamenatalsListView: View {
 				Divider()
 			}
 				   .navigationTitle("Silks Fundamentals")
+				   .navigationDestination(for: Move.self) { move in
+					   MoveDetailView(move: move)
+				   }
 		}
 	}
 	
 	@ViewBuilder
 	private func listRow(_ moveName: MoveName) -> some View {
 		if let move = moves.first(where: { $0.name == moveName.name }) {
-			MoveDetailRowView(move: move)
+//			MoveDetailRowView(move: move)
+			NavigationLink(value: move) {
+				HStack {
+					Text(move.name)
+					
+					Spacer()
+					
+					Text(move.workouts.count.description)
+				}
+			}
 		} else {
 			MoveDetailRowView(move: Move(moveName: moveName))
 				.disabled(true)
