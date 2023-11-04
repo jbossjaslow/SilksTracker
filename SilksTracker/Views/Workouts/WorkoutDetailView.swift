@@ -200,9 +200,7 @@ struct WorkoutDetailView: View {
 										 count: 4),
 						  spacing: 10) {
 					ForEach(selectedImages, id: \.fileName) { selectedImage in
-						selectedImage.image
-							.resizable()
-							.scaledToFit()
+						PreviewableImageView(image: selectedImage.image)
 							.containerRelativeFrame(.horizontal,
 													count: 4,
 													span: 1,

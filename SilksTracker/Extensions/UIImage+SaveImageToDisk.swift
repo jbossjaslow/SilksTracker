@@ -4,9 +4,11 @@
 //
 //  Created by Josh Jaslow on 10/29/23.
 //
+// Adapted from https://stackoverflow.com/questions/66031481/saving-a-reference-to-an-image-in-camera-roll-to-recall-later-in-app
 
 import UIKit
 
+// TODO:  - Update this to use URLs instead to power AsyncImage --> https://developer.apple.com/tutorials/sample-apps/imagegallery
 extension UIImage {
 	/// Save an image to disk
 	/// - Parameter fileName: The name of the image path
