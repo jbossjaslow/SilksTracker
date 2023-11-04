@@ -31,15 +31,15 @@ extension WorkoutDetailView {
 	
 	private var editOnlyButtons: some View {
 		HStack(spacing: 4) {
-			Button {
-				showingBatchInput = true
-			} label: {
-				Text("Batch Move Input")
-					.foregroundStyle(Color.white)
-					.frame(maxWidth: .infinity)
-					.background(Color.blue)
-					.clipShape(RoundedRectangle(cornerRadius: 4))
-			}
+//			Button {
+//				showingBatchInput = true
+//			} label: {
+//				Text("Batch Move Input")
+//					.foregroundStyle(Color.white)
+//					.frame(maxWidth: .infinity)
+//					.background(Color.blue)
+//					.clipShape(RoundedRectangle(cornerRadius: 4))
+//			}
 			
 			Menu {
 				ForEach(GroupedMoves.flows) { moveGroup in
