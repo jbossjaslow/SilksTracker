@@ -5,7 +5,7 @@
 //  Created by Josh Jaslow on 6/25/23.
 //
 
-typealias Workout = SilksTrackerSchemaV2.Workout
+typealias Workout = SilksTrackerSchemaV3.Workout
 
 //import Foundation
 //import SwiftData

@@ -15,7 +15,7 @@ struct SilksTrackerApp: App {
     var body: some Scene {
         WindowGroup {
 			SilksTabView()
-				.modelContainer(for: SilksTrackerSchemaV2.models)
+				.modelContainer(for: SilksTrackerSchemaV3.models)
 				.environment(settings)
         }
     }

@@ -10,7 +10,7 @@ import SwiftUI
 extension WorkoutDetailView {
 	var viewsOnlyForEditing: some View {
 		HStack {
-			if canModifyMoves {
+			if isActivelyEditing {
 				VStack {
 					DatePicker("Date",
 							   selection: $date,
@@ -25,7 +25,7 @@ extension WorkoutDetailView {
 			
 			StickerSelectionView(selectedSticker: $selectedSticker,
 								 stickerRotation: $stickerRotation)
-			.disabled(!canModifyMoves)
+			.disabled(!isActivelyEditing)
 		}
 	}
 	

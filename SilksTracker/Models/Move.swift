@@ -5,7 +5,7 @@
 //  Created by Josh Jaslow on 6/15/23.
 //
 
-typealias Move = SilksTrackerSchemaV2.Move
+typealias Move = SilksTrackerSchemaV3.Move
 
 //import Foundation
 //import SwiftData

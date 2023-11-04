@@ -7,4 +7,4 @@
 
 import Foundation
 
-typealias Goal = SilksTrackerSchemaV2.Goal
+typealias Goal = SilksTrackerSchemaV3.Goal

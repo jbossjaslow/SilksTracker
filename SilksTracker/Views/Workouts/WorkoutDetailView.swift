@@ -24,6 +24,9 @@ struct WorkoutDetailView: View {
 	@State var selectedSticker = ""
 	@State var stickerRotation: Angle = .zero
 	
+	@State var selectedImages: [SilksImage] = []
+	@State var photosToDelete: [SilksImage] = []
+	
 	private let workoutDetailViewMode: WorkoutDetailViewMode
 	
 	init(workoutId: UUID? = nil,
@@ -41,7 +44,7 @@ struct WorkoutDetailView: View {
 		return workouts.first
 	}
 	
-	var canModifyMoves: Bool {
+	var isActivelyEditing: Bool {
 		workoutDetailViewMode == .addingNewWorkout ||
 		(workoutDetailViewMode == .editingExistingWorkout && editMode?.wrappedValue == .active)
 	}
@@ -100,6 +103,8 @@ struct WorkoutDetailView: View {
 	// MARK: - Helper views
 	@ViewBuilder
 	private var addViewContent: some View {
+		photosView
+		
 		moveListView
 		
 		saveButton
@@ -110,10 +115,16 @@ struct WorkoutDetailView: View {
 								 _ existingWorkout: Workout) -> some View {
 		switch editMode.wrappedValue {
 			case .active:
+				photosView
+				
 				moveListView
 				
 				saveButton
 			case .inactive:
+				if !selectedImages.isEmpty {
+					photosView
+				}
+				
 				viewExistingWorkoutView(workout: existingWorkout)
 			default:
 				EmptyView()
@@ -164,12 +175,44 @@ struct WorkoutDetailView: View {
 	
 	var saveButton: some View {
 		Button {
-			saveWorkout()
+			Task {
+				await MainActor.run {
+					saveWorkout()
+				}
+			}
 		} label: {
 			Text(saveButtonText)
 				.standardButtonStyle
 		}
 		.padding(.horizontal)
+	}
+	
+	@ViewBuilder
+	var photosView: some View {
+		if isActivelyEditing {
+			ImageSelectionView(selectedImages: $selectedImages,
+							   onDelete: deleteImage)
+			.frame(height: 120)
+			.padding(.horizontal)
+		} else {
+			ScrollView(.vertical) {
+				LazyVGrid(columns: Array(repeating: GridItem(),
+										 count: 4),
+						  spacing: 10) {
+					ForEach(selectedImages, id: \.fileName) { selectedImage in
+						selectedImage.image
+							.resizable()
+							.scaledToFit()
+							.containerRelativeFrame(.horizontal,
+													count: 4,
+													span: 1,
+													spacing: 10)
+					}
+				}
+			}
+			.frame(height: 120)
+			.padding(.horizontal)
+		}
 	}
 	
 	// MARK: - Logic functions
@@ -178,6 +221,7 @@ struct WorkoutDetailView: View {
 		date = existingWorkout.date
 		selectedSticker = existingWorkout.sticker
 		stickerRotation = Angle(degrees: existingWorkout.stickerRotation)
+		selectedImages = existingWorkout.fetchPhotos()
 	}
 	
 	private func onTapOfMove(_ move: Move) {
@@ -188,6 +232,7 @@ struct WorkoutDetailView: View {
 		}
 	}
 	
+	@MainActor
 	private func saveWorkout() {
 		switch workoutDetailViewMode {
 			case .addingNewWorkout:
@@ -199,24 +244,45 @@ struct WorkoutDetailView: View {
 		try? modelContext.save()
 	}
 	
+	@MainActor
 	private func saveNewWorkout() {
 		let newWorkout = Workout(date: date,
 								 sticker: selectedSticker,
 								 stickerRotation: stickerRotation.degrees)
 		modelContext.insert(newWorkout)
 		newWorkout.addMoves(Array(selectedMoves))
+		newWorkout.savePhotos(selectedImages)
 		
 		dismiss()
 	}
 	
+	@MainActor
 	private func saveExistingWorkout() {
-		existingWorkout?.updateMoves(Array(selectedMoves))
-		existingWorkout?.date = date
-		existingWorkout?.sticker = selectedSticker
-		existingWorkout?.stickerRotation = stickerRotation.degrees
+		guard let existingWorkout else {
+			print("Workout doesn't exist")
+			return
+		}
+		
+		existingWorkout.updateMoves(Array(selectedMoves))
+		existingWorkout.date = date
+		existingWorkout.sticker = selectedSticker
+		existingWorkout.stickerRotation = stickerRotation.degrees
+//		existingWorkout?.photos.removeAll()
+		if !photosToDelete.isEmpty {
+			existingWorkout.deletePhotos(photosToDelete)
+		}
+		existingWorkout.savePhotos(selectedImages)
 		
 		withAnimation(.easeInOut) {
 			editMode?.wrappedValue = .inactive
 		}
+	}
+	
+	private func deleteImage(_ photoToDelete: SilksImage) {
+		guard workoutDetailViewMode == .editingExistingWorkout else {
+			return
+		}
+		
+		photosToDelete.append(photoToDelete)
 	}
 }

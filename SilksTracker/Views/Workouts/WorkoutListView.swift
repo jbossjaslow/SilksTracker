@@ -45,7 +45,7 @@ struct WorkoutListView: View {
 				
 				Divider()
 			}
-			.navigationTitle("Workouts")
+			.navigationTitle("\(workouts.count) Workout\(workouts.count == 1 ? "" : "s")")
 			.navigationDestination(for: Workout.self) { workout in
 				WorkoutDetailView(workoutId: workout.id,
 								  workoutDetailViewMode: .editingExistingWorkout)
