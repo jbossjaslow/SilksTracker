@@ -36,12 +36,14 @@ struct WorkoutListView: View {
 				}
 				.padding(.horizontal)
 				
-				HStack(spacing: 4) {
-					PrintAllDataView()
-					
-					BatchWorkoutInputView()
+				if SchemeChecker.isDebug {
+					HStack(spacing: 4) {
+						PrintAllDataView()
+						
+						BatchWorkoutInputView()
+					}
+					.padding(.horizontal)
 				}
-				.padding(.horizontal)
 				
 				Divider()
 			}

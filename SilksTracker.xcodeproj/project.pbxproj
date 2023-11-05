@@ -12,6 +12,7 @@
 		39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */; };
 		39092C1D2A5B89F50080BB66 /* MCEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 39092C1C2A5B89F50080BB66 /* MCEmojiPicker */; };
 		39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */; };
+		390BD1CD2AF8188900695BC4 /* SchemeChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BD1CC2AF8188900695BC4 /* SchemeChecker.swift */; };
 		390D78D72AF6F7390076BC9D /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D78D62AF6F7390076BC9D /* GlobalProperties.swift */; };
 		390D78DA2AF6F7E20076BC9D /* PreviewableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D78D92AF6F7E20076BC9D /* PreviewableImageView.swift */; };
 		390D78DC2AF6FABA0076BC9D /* ImagePreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D78DB2AF6FABA0076BC9D /* ImagePreView.swift */; };
@@ -95,6 +96,7 @@
 		39092C172A5B2DD50080BB66 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 		39092C192A5B362E0080BB66 /* BatchMoveInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchMoveInputView.swift; sourceTree = "<group>"; };
 		39092C1E2A5B8C940080BB66 /* StickerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionView.swift; sourceTree = "<group>"; };
+		390BD1CC2AF8188900695BC4 /* SchemeChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeChecker.swift; sourceTree = "<group>"; };
 		390D78D62AF6F7390076BC9D /* GlobalProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalProperties.swift; sourceTree = "<group>"; };
 		390D78D92AF6F7E20076BC9D /* PreviewableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewableImageView.swift; sourceTree = "<group>"; };
 		390D78DB2AF6FABA0076BC9D /* ImagePreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,14 @@
 				39092C172A5B2DD50080BB66 /* UserDefaultsKey.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		390BD1CB2AF8186B00695BC4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				390BD1CC2AF8188900695BC4 /* SchemeChecker.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		390D78D52AF6F7230076BC9D /* GlobalProperties */ = {
@@ -347,6 +357,7 @@
 				39ADA1BF2A3BD11700811244 /* Models */,
 				39ADA1962A3BCEDE00811244 /* Preview Content */,
 				39DC1C742A5FA734001C4F51 /* SwiftGen */,
+				390BD1CB2AF8186B00695BC4 /* Utility */,
 				39ADA1BE2A3BD0C400811244 /* Views */,
 				394631302A9C05D0005FF488 /* ViewStyles */,
 			);
@@ -690,6 +701,7 @@
 				39F34D882AEF2F11001405FD /* SilksTrackerSchemaMigrationPlan.swift in Sources */,
 				39B0FE302A5917EB0028E9EB /* MoveListView.swift in Sources */,
 				394631122A9BE374005FF488 /* BatchWorkoutInputView.swift in Sources */,
+				390BD1CD2AF8188900695BC4 /* SchemeChecker.swift in Sources */,
 				39C524EC2AA3A06100F646E8 /* GoalDetailViewMode.swift in Sources */,
 				3946311C2A9BFC1E005FF488 /* SilksTrackerSchemaV1+Workout.swift in Sources */,
 				39C524EE2AA3BA1A00F646E8 /* GoalDetailView+ReadAndWriteViews.swift in Sources */,
