@@ -24,12 +24,14 @@ struct SilksTabView: View {
 					Image(systemName: "list.bullet")
 				}
 			
-			GoalsTabView()
-				.tabItem {
-					Text("Goals")
-					
-					Image(systemName: "text.badge.checkmark")
-				}
+			if SchemeChecker.isDebug {
+				GoalsTabView()
+					.tabItem {
+						Text("Goals")
+						
+						Image(systemName: "text.badge.checkmark")
+					}
+			}
 			
 			SettingsView()
 				.tabItem {

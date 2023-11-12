@@ -9,6 +9,7 @@ import SwiftData
 import SwiftUI
 
 struct WorkoutListView: View {
+	@Environment(AppSettings.self) var settings
 	@Environment(\.modelContext) private var modelContext
 	@Query(sort: \Workout.date, order: .forward) var workouts: [Workout]
 	
@@ -77,7 +78,8 @@ struct WorkoutListView: View {
 	private func navlinkView(workout: Workout) -> some View {
 		NavigationLink(value: workout) {
 			HStack {
-				Text(workout.date.formatted(.dateTime))
+				Text(workout.date.formatted(date: .numeric,
+											time: settings.showTimeWithDateInWorkoutList ? .shortened : .omitted))
 				
 				Spacer()
 				

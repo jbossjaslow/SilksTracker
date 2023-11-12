@@ -300,14 +300,14 @@
 			path = ViewStyles;
 			sourceTree = "<group>";
 		};
-		396A2B2D2A566C7F0087B9CC /* Move List */ = {
+		396A2B2D2A566C7F0087B9CC /* MoveList */ = {
 			isa = PBXGroup;
 			children = (
 				39ADA1BC2A3BD0BB00811244 /* FundamenatalsListView.swift */,
 				396A2B2F2A566CC20087B9CC /* MoveDetailView.swift */,
 				39B0FE2F2A5917EB0028E9EB /* MoveListView.swift */,
 			);
-			path = "Move List";
+			path = MoveList;
 			sourceTree = "<group>";
 		};
 		396A2B2E2A566C8D0087B9CC /* Workouts */ = {
@@ -341,6 +341,15 @@
 				397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		3986D4A92B01946500C8ED90 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3941841A2A50C4A500AC7335 /* SettingsView.swift */,
+				397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		39ADA1842A3BCEDC00811244 = {
@@ -409,12 +418,11 @@
 		39ADA1BE2A3BD0C400811244 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3986D4A92B01946500C8ED90 /* App */,
 				396A2B312A566DFF0087B9CC /* Components */,
 				394631292A9C017F005FF488 /* Goals */,
 				390D78D82AF6F7D30076BC9D /* Images */,
-				396A2B2D2A566C7F0087B9CC /* Move List */,
-				3941841A2A50C4A500AC7335 /* SettingsView.swift */,
-				397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */,
+				396A2B2D2A566C7F0087B9CC /* MoveList */,
 				396A2B2E2A566C8D0087B9CC /* Workouts */,
 			);
 			path = Views;

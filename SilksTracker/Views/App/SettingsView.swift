@@ -20,8 +20,10 @@ struct SettingsView: View {
 						Text("Show time with date in workout list")
 					}
 					
-					Toggle(isOn: $settings.showTimeWithDateInNewWorkout) {
-						Text("Show time with date in new workout screen")
+					if SchemeChecker.isDebug {
+						Toggle(isOn: $settings.showTimeWithDateInNewWorkout) {
+							Text("Show time with date in new workout screen")
+						}
 					}
 				} header: {
 					Text("Workout Dates")
