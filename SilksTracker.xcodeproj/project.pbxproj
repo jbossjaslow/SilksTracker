@@ -16,6 +16,7 @@
 		390D78D72AF6F7390076BC9D /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D78D62AF6F7390076BC9D /* GlobalProperties.swift */; };
 		390D78DA2AF6F7E20076BC9D /* PreviewableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D78D92AF6F7E20076BC9D /* PreviewableImageView.swift */; };
 		390D78DC2AF6FABA0076BC9D /* ImagePreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D78DB2AF6FABA0076BC9D /* ImagePreView.swift */; };
+		391548302B016F7F0092B996 /* PhotosDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3915482F2B016F7F0092B996 /* PhotosDisplayView.swift */; };
 		3933F55B2ADC6F7B00A1CC9F /* ImageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933F55A2ADC6F7B00A1CC9F /* ImageSelectionView.swift */; };
 		3941841B2A50C4A500AC7335 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841A2A50C4A500AC7335 /* SettingsView.swift */; };
 		3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941841D2A50C53D00AC7335 /* AppSettings.swift */; };
@@ -100,6 +101,7 @@
 		390D78D62AF6F7390076BC9D /* GlobalProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalProperties.swift; sourceTree = "<group>"; };
 		390D78D92AF6F7E20076BC9D /* PreviewableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewableImageView.swift; sourceTree = "<group>"; };
 		390D78DB2AF6FABA0076BC9D /* ImagePreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreView.swift; sourceTree = "<group>"; };
+		3915482F2B016F7F0092B996 /* PhotosDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDisplayView.swift; sourceTree = "<group>"; };
 		3933F55A2ADC6F7B00A1CC9F /* ImageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionView.swift; sourceTree = "<group>"; };
 		3941841A2A50C4A500AC7335 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3941841D2A50C53D00AC7335 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			children = (
 				390D78D92AF6F7E20076BC9D /* PreviewableImageView.swift */,
 				390D78DB2AF6FABA0076BC9D /* ImagePreView.swift */,
+				3915482F2B016F7F0092B996 /* PhotosDisplayView.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 				397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */,
 				39BBC9A12AEF35D40083F450 /* Image+ToUIImage.swift in Sources */,
 				39E4A2922AA39F140007F353 /* GoalDetailView.swift in Sources */,
+				391548302B016F7F0092B996 /* PhotosDisplayView.swift in Sources */,
 				397BF6AB2A48F17700F80E0F /* GroupedMoves.swift in Sources */,
 				39092C1F2A5B8C940080BB66 /* StickerSelectionView.swift in Sources */,
 				3946312D2A9C02BE005FF488 /* GoalListOrderType.swift in Sources */,

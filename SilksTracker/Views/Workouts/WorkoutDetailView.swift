@@ -68,7 +68,7 @@ struct WorkoutDetailView: View {
 	}
 	
 	// MARK: - Body
-    var body: some View {
+	var body: some View {
 		VStack {
 			viewsOnlyForEditing
 				.padding(.horizontal, 10)
@@ -98,7 +98,7 @@ struct WorkoutDetailView: View {
 		.sheet(isPresented: $showingBatchInput) {
 			BatchMoveInputView(selectedMoves: $selectedMoves)
 		}
-    }
+	}
 	
 	// MARK: - Helper views
 	@ViewBuilder
@@ -187,30 +187,12 @@ struct WorkoutDetailView: View {
 		.padding(.horizontal)
 	}
 	
-	@ViewBuilder
 	var photosView: some View {
-		if isActivelyEditing {
-			ImageSelectionView(selectedImages: $selectedImages,
-							   onDelete: deleteImage)
+		PhotosDisplayView(selectedImages: $selectedImages,
+						  isActivelyEditing: isActivelyEditing,
+						  deleteImage: deleteImage)
 			.frame(height: 120)
 			.padding(.horizontal)
-		} else {
-			ScrollView(.vertical) {
-				LazyVGrid(columns: Array(repeating: GridItem(),
-										 count: 4),
-						  spacing: 10) {
-					ForEach(selectedImages, id: \.fileName) { selectedImage in
-						PreviewableImageView(image: selectedImage.image)
-							.containerRelativeFrame(.horizontal,
-													count: 4,
-													span: 1,
-													spacing: 10)
-					}
-				}
-			}
-			.frame(height: 120)
-			.padding(.horizontal)
-		}
 	}
 	
 	// MARK: - Logic functions
@@ -265,7 +247,7 @@ struct WorkoutDetailView: View {
 		existingWorkout.date = date
 		existingWorkout.sticker = selectedSticker
 		existingWorkout.stickerRotation = stickerRotation.degrees
-//		existingWorkout?.photos.removeAll()
+		//		existingWorkout?.photos.removeAll()
 		if !photosToDelete.isEmpty {
 			existingWorkout.deletePhotos(photosToDelete)
 		}

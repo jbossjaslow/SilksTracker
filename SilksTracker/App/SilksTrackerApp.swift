@@ -26,6 +26,8 @@ struct SilksTrackerApp: App {
 				}
 			}
 			.environment(globalProperties)
+			.animation(.easeInOut,
+					   value: globalProperties.presentingImage)
         }
     }
 }
