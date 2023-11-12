@@ -34,6 +34,11 @@ extension WorkoutDetailView {
 		}
 		
 		try? modelContext.save()
+		dismiss()
+		
+		// I don't know why this is needed, but without it, it crashes in the Move model on a generated line for getting the id.
+		// This fixes it for some reason
+		selectedMoves.removeAll()
 	}
 	
 	@MainActor
@@ -44,8 +49,6 @@ extension WorkoutDetailView {
 		modelContext.insert(newWorkout)
 		newWorkout.addMoves(Array(selectedMoves))
 		newWorkout.savePhotos(selectedImages)
-		
-		dismiss()
 	}
 	
 	@MainActor
@@ -65,9 +68,10 @@ extension WorkoutDetailView {
 		}
 		existingWorkout.savePhotos(selectedImages)
 		
-		withAnimation(.easeInOut) {
-			editMode?.wrappedValue = .inactive
-		}
+		// TODO: Figure out why it crashes with the selected moves, and hopefully move back to changing edit mode for saving existing, instead of dismissing
+//		withAnimation(.easeInOut) {
+//			editMode?.wrappedValue = .inactive
+//		}
 	}
 	
 	func deleteImage(_ photoToDelete: SilksImage) {
