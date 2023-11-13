@@ -36,8 +36,6 @@ extension WorkoutDetailView {
 			default:
 				EmptyView()
 		}
-		
-		Divider()
 	}
 	
 	@ViewBuilder

@@ -61,8 +61,6 @@ struct WorkoutListView: View {
 				}
 				.padding(.horizontal)
 			}
-			
-			Divider()
 		}
 		.navigationTitle("\(workouts.count) Workout\(workouts.count == 1 ? "" : "s")")
 		.navigationDestination(for: Workout.self) { workout in

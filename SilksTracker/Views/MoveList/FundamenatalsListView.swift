@@ -18,8 +18,6 @@ struct FundamenatalsListView: View {
 				MoveListView {
 					listRow($0)
 				}
-				
-				Divider()
 			}
 				   .navigationTitle("Silks Fundamentals")
 				   .navigationDestination(for: Move.self) { move in

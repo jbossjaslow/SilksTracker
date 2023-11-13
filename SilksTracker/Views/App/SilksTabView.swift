@@ -10,35 +10,51 @@ import SwiftUI
 struct SilksTabView: View {
 	var body: some View {
 		TabView {
-			FundamenatalsListView()
-				.tabItem {
-					Text("Fundamentals")
-					
-					Image(systemName: "figure.climbing")
-				}
-			
-			WorkoutListView()
-				.tabItem {
-					Text("Workouts")
-					
-					Image(systemName: "list.bullet")
-				}
-			
-			if SchemeChecker.isDebug {
-				GoalsTabView()
-					.tabItem {
-						Text("Goals")
-						
-						Image(systemName: "text.badge.checkmark")
-					}
+			VStack {
+				FundamenatalsListView()
+				
+				Divider()
+			}
+			.tabItem {
+				Text("Fundamentals")
+				
+				Image(systemName: "figure.climbing")
 			}
 			
-			SettingsView()
-				.tabItem {
-					Text("Settings")
+			VStack {
+				WorkoutListView()
+				
+				Divider()
+			}
+			.tabItem {
+				Text("Workouts")
+				
+				Image(systemName: "list.bullet")
+			}
+			
+			if SchemeChecker.isDebug {
+				VStack {
+					GoalsTabView()
 					
-					Image(systemName: "gear")
+					Divider()
 				}
+				.tabItem {
+					Text("Goals")
+					
+					Image(systemName: "text.badge.checkmark")
+				}
+			}
+			
+			VStack {
+				SettingsView()
+				
+				Divider()
+			}
+			.tabItem {
+				Text("Settings")
+				
+				Image(systemName: "gear")
+			}
 		}
 	}
 }

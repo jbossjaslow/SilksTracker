@@ -39,8 +39,6 @@ struct GoalsTabView: View {
 						.standardButtonStyle
 				}
 				.padding(.horizontal)
-				
-				Divider()
 			}
 			.navigationTitle("My Goals")
 		}

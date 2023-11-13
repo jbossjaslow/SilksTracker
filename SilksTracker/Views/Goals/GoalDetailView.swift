@@ -81,8 +81,6 @@ struct GoalDetailView: View {
 						Text("Unable to locate data")
 					}
 			}
-			
-			Divider()
 		}
 		.navigationTitle(navTitle)
 		.toolbar {

@@ -48,6 +48,8 @@
 		397BF6AB2A48F17700F80E0F /* GroupedMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */; };
 		397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */; };
 		397BF6B42A48F61000F80E0F /* MoveName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BF6B32A48F61000F80E0F /* MoveName.swift */; };
+		3986D4AB2B01999100C8ED90 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986D4AA2B01999100C8ED90 /* AboutView.swift */; };
+		3986D4AD2B019AB400C8ED90 /* UIApplication+AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986D4AC2B019AB400C8ED90 /* UIApplication+AppVersion.swift */; };
 		39ADA1912A3BCEDD00811244 /* SilksTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ADA1902A3BCEDD00811244 /* SilksTrackerApp.swift */; };
 		39ADA1952A3BCEDE00811244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39ADA1942A3BCEDE00811244 /* Assets.xcassets */; };
 		39ADA1982A3BCEDE00811244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39ADA1972A3BCEDE00811244 /* Preview Assets.xcassets */; };
@@ -135,6 +137,8 @@
 		397BF6AA2A48F17700F80E0F /* GroupedMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedMoves.swift; sourceTree = "<group>"; };
 		397BF6B12A48F5C300F80E0F /* WorkoutPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPreviewModel.swift; sourceTree = "<group>"; };
 		397BF6B32A48F61000F80E0F /* MoveName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveName.swift; sourceTree = "<group>"; };
+		3986D4AA2B01999100C8ED90 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		3986D4AC2B019AB400C8ED90 /* UIApplication+AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+AppVersion.swift"; sourceTree = "<group>"; };
 		39ADA18D2A3BCEDD00811244 /* SilksTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilksTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39ADA1902A3BCEDD00811244 /* SilksTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilksTrackerApp.swift; sourceTree = "<group>"; };
 		39ADA1942A3BCEDE00811244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -348,6 +352,7 @@
 			children = (
 				3941841A2A50C4A500AC7335 /* SettingsView.swift */,
 				397BF6A22A48E9CE00F80E0F /* SilksTabView.swift */,
+				3986D4AA2B01999100C8ED90 /* AboutView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -483,8 +488,9 @@
 		39F34D762AEF0563001405FD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				39F34D772AEF0578001405FD /* UIImage+SaveImageToDisk.swift */,
 				39BBC9A02AEF35D40083F450 /* Image+ToUIImage.swift */,
+				3986D4AC2B019AB400C8ED90 /* UIApplication+AppVersion.swift */,
+				39F34D772AEF0578001405FD /* UIImage+SaveImageToDisk.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -695,6 +701,7 @@
 				390D78DC2AF6FABA0076BC9D /* ImagePreView.swift in Sources */,
 				394631282A9BFFEE005FF488 /* SilksTrackerSchemaV2+Workout.swift in Sources */,
 				397BF6A32A48E9CE00F80E0F /* SilksTabView.swift in Sources */,
+				3986D4AD2B019AB400C8ED90 /* UIApplication+AppVersion.swift in Sources */,
 				39092C1A2A5B362E0080BB66 /* BatchMoveInputView.swift in Sources */,
 				397BF6B22A48F5C300F80E0F /* WorkoutPreviewModel.swift in Sources */,
 				39BBC9A12AEF35D40083F450 /* Image+ToUIImage.swift in Sources */,
@@ -713,6 +720,7 @@
 				394631212A9BFE5E005FF488 /* SilksTrackerSchemaV2+Goal.swift in Sources */,
 				394631262A9BFF95005FF488 /* SilksTrackerSchemaV2+Move.swift in Sources */,
 				39F34D7A2AEF1A26001405FD /* CircularProgressView.swift in Sources */,
+				3986D4AB2B01999100C8ED90 /* AboutView.swift in Sources */,
 				3941841E2A50C53D00AC7335 /* AppSettings.swift in Sources */,
 				39ADA1912A3BCEDD00811244 /* SilksTrackerApp.swift in Sources */,
 				3946311A2A9BFBE9005FF488 /* SilksTrackerSchemaV1+Move.swift in Sources */,
